@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.page-header{
+
+    background-color: #4EA487;
+    display: flex;
+    flex-direction: row;
+
+    padding-left: 150px;
+}
+
+.header-nav{
+    display: flex;
+    align-items: center;
+
+    gap: 40px;
+    margin-left: 100px;
+}
