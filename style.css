@@ -30,28 +30,21 @@
 }
 
 .page-header {
-
     max-width: 1440px;
-
-
     display: flex;
     flex-direction: row;
-
     padding-left: 150px;
 }
 
 .header-nav {
     font-size: 24px;
-
     display: flex;
     align-items: center;
-
     gap: 40px;
     margin-left: 100px;
 }
 
 .header-nav>a {
-
     font-family: Arima;
     font-weight: 700;
     font-size: 24px;
@@ -72,12 +65,9 @@
 
 
 .page-footer {
-
     max-width: 1440px;
     display: flex;
     flex-direction: row;
-
-
 }
 
 .footer-left {
@@ -85,15 +75,11 @@
     align-items: center;
     margin: 60px 500px 60px 0;
     padding-left: 120px;
-
-
 }
 
 .footer-left-links {
-
     font-family: Palanquin;
     display: flex;
-
     gap: 72px;
     padding-left: 5px;
     flex-shrink: 0;         
@@ -105,12 +91,10 @@
     display: flex;
     align-items: center;
     gap: 16px;
-
 }
 
 .footer-right>img {
     height: 32px;
-
 }
 
 .main-seciton-headline > h1{
@@ -131,12 +115,10 @@
     font-family: Arima;
     font-size: 28px;
     color: #54370D;
-
     padding-top: 8px;
 }
 
 .main-seciton-headline{
-
     width: 900px;
     margin: 80px 26px 40px 120px;
 }
