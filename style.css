@@ -126,8 +126,9 @@
 }
 
 .main-content-carousel {
+    display: flex;
+    justify-content: center;
     padding-top : 80px;
-    padding-left: 120px;
 }
 
 .carousel-articel-author-wrapper {
@@ -137,7 +138,6 @@
 .carousel-headline-info-wrapper {
     display: flex;
     flex-direction: column;
-    gap: 8px;
 }
 
 .carousel-ocean-soul-headline {
@@ -147,6 +147,8 @@
     font-weight: 600;
     line-height: 120%;
     letter-spacing: 0%;
+    height: 48px;
+    width: 608px;
 }
 
 .carousel-breathtaking-beaches-headline {
@@ -157,4 +159,25 @@
     line-height: 120%;
     letter-spacing: 0%;
     color: #F1C953;
+    height: 154px;
+    width: 902px;
+    padding-top: 8px;
+}
+
+.carousel-beaches-description {
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #54370D;
+    height: 114px;
+    width: 902px;
+    padding-top: 8px;
+}
+
+.carousel-read-share-wrapper {
+    display: flex;
+    padding-top: 40px;
 }
