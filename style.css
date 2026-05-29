@@ -275,3 +275,41 @@
     border-radius: 50%;
     object-fit: cover;
 }
+
+.Tamara-Walker-headline-carousel {
+    font-family: Arima;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #54370D;
+    padding-top: 16px;
+}
+
+.author-headline-carousel {
+    font-family: Arima;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #54370D;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-block-start: 0px;
+    /* regular wird nicht genommen oder in figma nicht richtg dargestellt; */
+}
+
+.author-info-text-carousel {
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #54370D;
+    padding-top: 12px;
+}
