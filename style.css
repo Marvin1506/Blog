@@ -124,3 +124,37 @@
     width: 900px;
     margin: 80px 26px 40px 120px;
 }
+
+.main-content-carousel {
+    padding-top : 80px;
+    padding-left: 120px;
+}
+
+.carousel-articel-author-wrapper {
+    display: flex;
+}
+
+.carousel-headline-info-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.carousel-ocean-soul-headline {
+    color: #4EA487;
+    font-family: 'Palanquin';
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+.carousel-breathtaking-beaches-headline {
+    font-family: Arima;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 64px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #F1C953;
+}
