@@ -5,7 +5,7 @@
     font-family: 'Arima';
     font-style: normal;
     font-weight: 700;
-    src: url('../Blog/fonts/Arima/Arima-VariableFont_wght.ttf') format('woff2');
+    src: url('./fonts/Arima/Arima-VariableFont_wght.ttf') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
@@ -33,7 +33,7 @@
     max-width: 1440px;
     display: flex;
     flex-direction: row;
-    padding-left: 150px;
+    padding-left: 146px;
 }
 
 .header-nav {
