@@ -40,8 +40,8 @@
     font-size: 24px;
     display: flex;
     align-items: center;
-    gap: 40px;
-    margin-left: 100px;
+    gap: 72px;
+    margin-left: 102px;
 }
 
 .header-nav>a {
