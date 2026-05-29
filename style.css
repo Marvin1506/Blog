@@ -112,3 +112,31 @@
     height: 32px;
 
 }
+
+.main-seciton-headline > h1{
+    font-family: Palanquin;
+    font-size: 40px;
+    font-weight: 600;
+    color: #4EA487;
+}
+
+.main-seciton-headline > h2{
+    font-family: Arima;
+    font-size: 64px;
+    font-weight: 700 ;
+    color: #F1C953;
+}
+
+.main-seciton-headline >  p{
+    font-family: Arima;
+    font-size: 28px;
+    color: #54370D;
+
+    padding-top: 8px;
+}
+
+.main-seciton-headline{
+
+    width: 900px;
+    margin: 80px 26px 40px 120px;
+}
