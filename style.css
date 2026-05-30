@@ -84,7 +84,7 @@
     display: flex;
     gap: 72px;
     padding-left: 5px;
-    flex-shrink: 0;         
+    flex-shrink: 0;
     /* Ohne diesen Befehl habe ich immer einen Zeilenumbruch... Unkalr warum.. */
 }
 
@@ -99,21 +99,21 @@
     height: 32px;
 }
 
-.main-seciton-headline > h1{
+.main-seciton-headline>h1 {
     font-family: Palanquin;
     font-size: 40px;
     font-weight: 600;
     color: #4EA487;
 }
 
-.main-seciton-headline > h2{
+.main-seciton-headline>h2 {
     font-family: Arima;
     font-size: 64px;
-    font-weight: 700 ;
+    font-weight: 700;
     color: #F1C953;
 }
 
-.main-seciton-headline >  p{
+.main-seciton-headline>p {
     font-family: Arima;
     font-size: 28px;
     color: #54370D;
@@ -122,7 +122,57 @@
 
 .main-seciton-headline{
     width: 900px;
+
+}
+
+.main-section-author img {
+    height: 120px;
+
+    margin: 16px 0px 16px 0px;
+
+    border-radius: 30px;
+
+}
+
+.main-section-author {
+
+    background-color: #4EA48733;
+
+    width: 270px;
+    height: 390px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border-radius: 30px;
+
+}
+
+#name {
+    font-size: 18px;
+    font-family: Arima;
+    font-weight: 700px;
+}
+
+#author{
+    font-size: 25px;
+    font-family: Arima;
+    font-weight: 400px;
+}
+
+.main-section-author > p{
+    font-family: Palanquin;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+    padding: 0px 16px 0px 16px;
+}
+
+.main-section-wrapper {
+    max-width: 1440px;
     margin: 80px 26px 40px 120px;
+    display: flex;
 }
 
 .main-content-carousel {
