@@ -170,9 +170,9 @@
 }
 
 .page02-main-section-wrapper {
-    max-width: 1440px;
-    margin: 80px 26px 40px 120px;
+   padding-top: 80px;
     display: flex;
+    justify-content: center;
 }
 
 .main-content-carousel {
