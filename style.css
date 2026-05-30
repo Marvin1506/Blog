@@ -99,33 +99,33 @@
     height: 32px;
 }
 
-.main-seciton-headline>h1 {
+.page02-main-seciton-headline>h1 {
     font-family: Palanquin;
     font-size: 40px;
     font-weight: 600;
     color: #4EA487;
 }
 
-.main-seciton-headline>h2 {
+.page02-main-seciton-headline>h2 {
     font-family: Arima;
     font-size: 64px;
     font-weight: 700;
     color: #F1C953;
 }
 
-.main-seciton-headline>p {
+.page02-main-seciton-headline>p {
     font-family: Arima;
     font-size: 28px;
     color: #54370D;
     padding-top: 8px;
 }
 
-.main-seciton-headline{
+.page02-main-seciton-headline{
     width: 900px;
 
 }
 
-.main-section-author img {
+.page02-main-section-author img {
     height: 120px;
 
     margin: 16px 0px 16px 0px;
@@ -134,7 +134,7 @@
 
 }
 
-.main-section-author {
+.page02-main-section-author {
 
     background-color: #4EA48733;
 
@@ -161,7 +161,7 @@
     font-weight: 400px;
 }
 
-.main-section-author > p{
+.page02-main-section-author > p{
     font-family: Palanquin;
     font-weight: 400;
     font-size: 16px;
@@ -169,7 +169,7 @@
     padding: 0px 16px 0px 16px;
 }
 
-.main-section-wrapper {
+.page02-main-section-wrapper {
     max-width: 1440px;
     margin: 80px 26px 40px 120px;
     display: flex;
