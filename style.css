@@ -536,7 +536,56 @@
     padding-top: 88px;
 }
 
+.beach-images-wrapper-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 440px;
+    padding-top: 64px;
+}
 
+.beach-solo-image-wrapper-carousel {
+    width: 300px;
+    min-width: 300px;
+    margin-left: -80px;
+    perspective: 600px;
+}
 
+.beach-images-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 440px;
+    border-radius: 16px;
+    object-fit: cover;
+    min-width: 300px;
+    flex-shrink: 0;
+}
 
+.image-1-carousel {
+    z-index: 1;
+    transform: rotateY(25deg);
+    margin-left: 0px;
+}
+
+.image-2-carousel {
+    z-index: 2;
+    transform: rotateY(25deg);
+}
+
+.image-3-carousel {
+    z-index: 3;
+        transform: rotateY(25deg);
+}
+
+.image-4-carousel {
+    z-index: 4;
+    transform: rotateY(25deg);
+}
+
+.image-5-carousel {
+    z-index: 5;
+    transform: rotateY(25deg);
+}
 
