@@ -538,8 +538,8 @@
 
 .beach-images-wrapper-carousel {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     height: 440px;
     padding-top: 64px;
 }
@@ -549,6 +549,10 @@
     min-width: 300px;
     margin-left: -80px;
     perspective: 600px;
+}
+
+.beach-solo-image-wrapper-carousel:first-child {
+    margin-left: 0;
 }
 
 .beach-images-carousel {
@@ -566,7 +570,6 @@
 .image-1-carousel {
     z-index: 1;
     transform: rotateY(25deg);
-    margin-left: 0px;
 }
 
 .image-2-carousel {
