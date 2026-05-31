@@ -114,17 +114,23 @@
     font-family: Arima;
     font-size: 64px;
     font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
     color: #F1C953;
 }
 
 .page02-main-seciton-headline>p {
-    font-family: Arima;
+    font-family: Palanquin;
     font-size: 28px;
+    font-weight: 400;
     color: #54370D;
     padding-top: 8px;
+    margin-bottom: 40px;
+    line-height: 120%;
+    letter-spacing: 0%;
 }
 
-.page02-main-seciton-headline{
+.page02-main-seciton-headline {
     width: 900px;
 
 }
@@ -146,11 +152,10 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-left: 27px;
     padding: 16px;
 
     border-radius: 30px;
-    
+
 
 }
 
@@ -161,15 +166,15 @@
     padding-top: 16px;
 }
 
-#author{
+#author {
     font-size: 18px;
     font-family: Arima;
     font-weight: 400;
-        margin-bottom: 12px;
+    margin-bottom: 12px;
 
 }
 
-.page02-main-section-author > p{
+.page02-main-section-author>p {
     font-family: Palanquin;
     color: #54370D;
     font-weight: 400;
@@ -178,15 +183,69 @@
 }
 
 .page02-main-section-wrapper {
-   padding-top: 80px;
     display: flex;
+    flex-direction: column;
+}
+
+.page02-complete-main-section {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.page02-main-section-author-wrapper {
+    width: 1200px;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+}
+
+.page02-read-icon-wrapper,
+.page02-shared-icon-wrapper,
+.page02-articel-date-icon-wrapper,
+.page02-read-time-icon-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 19px;
+    gap: 6px;
+}
+
+
+.page02-read-share-wrapper {
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    width: 900px;
+
+}
+
+.page02-read-share-wrapper p {
+    font-family: Palanquin;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #54370D;
+}
+
+.page02-main-text {
+
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
     justify-content: center;
 }
+
+
 
 .main-content-carousel {
     display: flex;
     justify-content: center;
-    padding-top : 80px;
+    padding-top: 80px;
 }
 
 .carousel-articel-author-wrapper {
