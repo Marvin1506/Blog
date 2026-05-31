@@ -430,3 +430,106 @@
     color: #54370D;
     padding-top: 12px;
 }
+
+
+.content-frame-graph {
+    /* max-width: 1440px; */
+    width: 100%;
+}
+
+.design-h2-graph {
+    font-family: Palanquin;
+    font-size: 40px;
+    color: #4EA487;
+    line-height:120%;
+}
+
+.desing-h1-graph {
+    font-family: Arima;
+    font-size: 64px;
+    font-weight: 700;
+    color: #F1C953;
+    line-height:120%;
+}
+
+.main-config-graph {
+    margin-top: 80px;
+    margin-left: 118px;
+    margin-right: 118px;
+    display: flex;
+}
+
+.main-text {
+    font-family: Palanquin;
+    font-size: 28px;
+    margin-bottom: 32px;
+    line-height:110%;
+    font-weight: 400;
+}
+
+.info-img {
+    height: 18px;
+    width: 16px;
+    margin-right: 10px;
+}
+
+.info-img-glasses {
+    height: 7px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.info-img-eye {
+    height: 14px;
+    width: 20px;
+    margin-right: 10px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    font-family: Palanquin;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.info-distance {
+    padding-right: 32px;
+}
+
+.main-author-box {
+    border-radius: 30px;
+    background: #4EA48733;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 27px;
+    height: 389px;
+    width: 272px;
+    padding: 16px;
+}
+
+.img-Tamara {
+    height: 120px;
+    width: 120px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 50%
+}
+
+.author-info-text {
+    font-size: 16px;
+    font-family: Palanquin;
+    font-weight: 400;
+    line-height:120%;
+
+
+
+}
+
+
+
+
+
+
+
