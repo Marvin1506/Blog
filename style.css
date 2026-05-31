@@ -695,8 +695,8 @@ ul {
     margin-left: 80px;
 }
  
-.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-1-carousel
-.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-2-carousel
+.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-1-carousel,
+.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-2-carousel,
 .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-3-carousel {
     margin-left: -80px;
 }
@@ -713,4 +713,11 @@ ul {
 
 .image-5-carousel:hover {
     transform: rotateY(0deg);
+}
+
+.beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-1-carousel,
+.beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-2-carousel,
+.beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-3-carousel,
+.beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-4-carousel{
+    margin-left: -80px;
 }
