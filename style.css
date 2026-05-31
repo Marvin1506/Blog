@@ -622,6 +622,14 @@ ul {
 
 .image-1-carousel:hover {
     transform: rotateY(0deg);
+    margin-left: -80px;
+}
+
+.beach-images-wrapper-carousel:has(.image-1-carousel:hover) .image-2-carousel,
+.beach-images-wrapper-carousel:has(.image-1-carousel:hover) .image-3-carousel,
+.beach-images-wrapper-carousel:has(.image-1-carousel:hover) .image-4-carousel,
+.beach-images-wrapper-carousel:has(.image-1-carousel:hover) .image-5-carousel {
+    transform: rotateY(-25deg);
 }
 
 .image-2-carousel {
@@ -634,6 +642,20 @@ ul {
     transform: rotateY(0deg);
 }
 
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-1-carousel {
+    margin-left: -80px;
+}
+
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-3-carousel {
+    margin-left: 80px;
+}
+
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-3-carousel,
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-4-carousel,
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-5-carousel {
+    transform: rotateY(-25deg);
+}
+
 .image-3-carousel {
     z-index: 3;
     transform: rotateY(25deg);
@@ -644,6 +666,21 @@ ul {
     transform: rotateY(0deg);
 }
 
+.beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-1-carousel,
+.beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-2-carousel {
+    margin-left: -80px;
+}
+
+.beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-4-carousel,
+.beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-5-carousel {
+    margin-left: 80px;
+}
+
+.beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-4-carousel,
+.beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-5-carousel {
+    transform: rotateY(-25deg);
+}
+
 .image-4-carousel {
     z-index: 4;
     transform: rotateY(25deg);
@@ -652,6 +689,20 @@ ul {
 
 .image-4-carousel:hover {
     transform: rotateY(0deg);
+}
+
+.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-5-carousel {
+    margin-left: 80px;
+}
+ 
+.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-1-carousel
+.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-2-carousel
+.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-3-carousel {
+    margin-left: -80px;
+}
+
+.beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-5-carousel {
+    transform: rotateY(-25deg);
 }
 
 .image-5-carousel {
