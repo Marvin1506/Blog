@@ -235,10 +235,39 @@
 
     width: 1200px;
     display: flex;
-    align-items: center;
     flex-direction: column;
-    justify-content: center;
+    margin-bottom: 88px;
 }
+
+.page02-main-text{
+    padding-top: 48px;
+}
+
+.page02-main-text p, li, ul{
+    color: #3D3D3D;
+    font-family: Palanquin;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 120%;
+    letter-spacing: 0%;
+}
+
+
+.page02-main-video{
+    padding: 88px 0px 88px 0px;
+    
+}
+
+.page02-main-text-list-introduction{
+    padding-top: 32px;
+}
+
+.page02-main-text-list{
+   max-width: 1000px;
+   margin-bottom: 32px;
+   
+}
+
 
 
 
