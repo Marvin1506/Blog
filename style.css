@@ -132,8 +132,6 @@
 .page02-main-section-author img {
     height: 120px;
 
-    margin: 16px 0px 16px 0px;
-
     border-radius: 30px;
 
 }
@@ -148,29 +146,35 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-left: 27px;
+    padding: 16px;
 
     border-radius: 30px;
+    
 
 }
 
 #name {
     font-size: 18px;
     font-family: Arima;
-    font-weight: 700px;
+    font-weight: 700;
+    padding-top: 16px;
 }
 
 #author{
-    font-size: 25px;
+    font-size: 18px;
     font-family: Arima;
-    font-weight: 400px;
+    font-weight: 400;
+        margin-bottom: 12px;
+
 }
 
 .page02-main-section-author > p{
     font-family: Palanquin;
+    color: #54370D;
     font-weight: 400;
     font-size: 16px;
     line-height: 120%;
-    padding: 0px 16px 0px 16px;
 }
 
 .page02-main-section-wrapper {
