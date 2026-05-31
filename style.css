@@ -232,18 +232,19 @@
 }
 
 .page02-main-text {
-
     width: 1200px;
     display: flex;
     flex-direction: column;
     margin-bottom: 88px;
 }
 
-.page02-main-text{
+.page02-main-text {
     padding-top: 48px;
 }
 
-.page02-main-text p, li, ul{
+.page02-main-text p,
+li,
+ul {
     color: #3D3D3D;
     font-family: Palanquin;
     font-weight: 400;
@@ -253,21 +254,38 @@
 }
 
 
-.page02-main-video{
+.page02-main-video {
     padding: 88px 0px 88px 0px;
-    
+
 }
 
-.page02-main-text-list-introduction{
+.page02-main-text-list-introduction {
     padding-top: 32px;
 }
 
-.page02-main-text-list{
-   max-width: 1000px;
-   margin-bottom: 32px;
-   
+.page02-main-text-list {
+    max-width: 1000px;
+    margin-bottom: 32px;
+
 }
 
+.page02-pro-tips-icon {
+    color: #F1C953;
+    width: fit-content;
+    margin-top: 88px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid black;
+    transform: rotate(-13deg)
+}
+
+.page02-pro-tips-infobox {
+    border: 5px solid black;
+    padding: 26px 16px 24px 16px; 
+    background-color: #4EA48733;
+}
 
 
 
@@ -470,7 +488,7 @@
     font-family: Palanquin;
     font-size: 40px;
     color: #4EA487;
-    line-height:120%;
+    line-height: 120%;
 }
 
 .desing-h1-graph {
@@ -478,7 +496,7 @@
     font-size: 64px;
     font-weight: 700;
     color: #F1C953;
-    line-height:120%;
+    line-height: 120%;
 }
 
 .main-config-graph {
@@ -492,7 +510,7 @@
     font-family: Palanquin;
     font-size: 28px;
     margin-bottom: 32px;
-    line-height:110%;
+    line-height: 110%;
     font-weight: 400;
 }
 
@@ -550,7 +568,7 @@
     font-size: 16px;
     font-family: Palanquin;
     font-weight: 400;
-    line-height:120%;
+    line-height: 120%;
 }
 
 .beach-destinations-headline-carousel {
@@ -608,7 +626,7 @@
 
 .image-3-carousel {
     z-index: 3;
-        transform: rotateY(25deg);
+    transform: rotateY(25deg);
 }
 
 .image-4-carousel {
@@ -620,4 +638,3 @@
     z-index: 5;
     transform: rotateY(25deg);
 }
-

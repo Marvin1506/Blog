@@ -1,4 +1,4 @@
 {
     "workbench.externalBrowser": "chrome",
-    "liveServer.settings.CustomBrowser": null
+    "liveServer.settings.CustomBrowser": "chrome"
 }
