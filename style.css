@@ -522,12 +522,19 @@
     font-family: Palanquin;
     font-weight: 400;
     line-height:120%;
-
-
-
 }
 
-
+.beach-destinations-headline-carousel {
+    font-family: Arima;
+    font-weight: 600;
+    font-style: SemiBold;
+    font-size: 32px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #54370D;
+    padding-top: 88px;
+}
 
 
 
