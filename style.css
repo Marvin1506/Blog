@@ -292,6 +292,13 @@ ul {
 .main-content-carousel {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.flexbox-author-articel-carousel {
+    display: flex;
+    justify-content: center;
     padding-top: 80px;
 }
 
@@ -571,6 +578,10 @@ ul {
     line-height: 120%;
 }
 
+.beach-destinations-images-div-carousel {
+    padding-top: 88px;
+}
+
 .beach-destinations-headline-carousel {
     font-family: Arima;
     font-weight: 600;
@@ -580,7 +591,6 @@ ul {
     letter-spacing: 0%;
     text-align: center;
     color: #54370D;
-    padding-top: 88px;
 }
 
 .beach-images-wrapper-carousel {
@@ -588,7 +598,7 @@ ul {
     justify-content: center;
     align-items: center;
     height: 440px;
-    padding-top: 64px;
+    margin-top: 64px;
 }
 
 .beach-solo-image-wrapper-carousel {
@@ -729,3 +739,64 @@ ul {
     margin-left: -80px;
     transition: margin 0.1s ease-in-out;
 }
+
+.lorem-text-carousel-div {
+    width: 1201px;
+    height: 145px;
+    margin-top: 88px;
+}
+
+.lorem-text-carousel {
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #3D3D3D;
+}
+
+.lorem-text-second-carousel {
+    margin-top: 88px;
+    height: 261px;
+    width: 1020px;
+}
+
+.pro-tipps-div-carousel {
+    margin-top: 88px;
+    width: 1130px;
+    height: 260.0000305175781px;
+    position: relative;
+}
+
+.pro-tipps-box-carousel {
+    width: 1083px;
+    height: 195px;
+    border-radius: 30px;
+    background: #4EA48733;
+}
+
+.pro-tipps-lorem-text-carousel {
+    font-family: Palanquin;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    padding-top: 26px;
+    padding-right: 16px;
+    padding-bottom: 24px;
+    padding-left: 16px;
+}
+
+.useful-link-carousel{
+    font-family: Palanquin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 24px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #4EA487;
+}
+ 
