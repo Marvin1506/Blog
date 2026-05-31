@@ -617,24 +617,49 @@ ul {
 .image-1-carousel {
     z-index: 1;
     transform: rotateY(25deg);
+    box-shadow: -9px 5px 20px 0px #00000040;
+}
+
+.image-1-carousel:hover {
+    transform: rotateY(0deg);
 }
 
 .image-2-carousel {
     z-index: 2;
     transform: rotateY(25deg);
+    box-shadow: -9px 5px 20px 0px #00000040;
+}
+
+.image-2-carousel:hover {
+    transform: rotateY(0deg);
 }
 
 .image-3-carousel {
     z-index: 3;
     transform: rotateY(25deg);
+    box-shadow: -9px 5px 20px 0px #00000040;
+}
+
+.image-3-carousel:hover {
+    transform: rotateY(0deg);
 }
 
 .image-4-carousel {
     z-index: 4;
     transform: rotateY(25deg);
+    box-shadow: -9px 5px 20px 0px #00000040;
+}
+
+.image-4-carousel:hover {
+    transform: rotateY(0deg);
 }
 
 .image-5-carousel {
     z-index: 5;
     transform: rotateY(25deg);
+    box-shadow: -9px 5px 20px 0px #00000040;
+}
+
+.image-5-carousel:hover {
+    transform: rotateY(0deg);
 }
