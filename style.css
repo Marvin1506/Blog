@@ -623,6 +623,7 @@ ul {
 .image-1-carousel:hover {
     transform: rotateY(0deg);
     margin-left: -80px;
+    transition: margin 0.1s ease-in-out;
 }
 
 .beach-images-wrapper-carousel:has(.image-1-carousel:hover) .image-2-carousel,
@@ -644,10 +645,12 @@ ul {
 
 .beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-1-carousel {
     margin-left: -80px;
+    transition: margin 0.1s ease-in-out;
 }
 
 .beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-3-carousel {
     margin-left: 80px;
+    transition: margin 0.1s ease-in-out;
 }
 
 .beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-3-carousel,
@@ -669,11 +672,13 @@ ul {
 .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-1-carousel,
 .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-2-carousel {
     margin-left: -80px;
+    transition: margin 0.1s ease-in-out;
 }
 
 .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-4-carousel,
 .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-5-carousel {
     margin-left: 80px;
+    transition: margin 0.1s ease-in-out;
 }
 
 .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-4-carousel,
@@ -693,12 +698,14 @@ ul {
 
 .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-5-carousel {
     margin-left: 80px;
+    transition: margin 0.1s ease-in-out;
 }
  
 .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-1-carousel,
 .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-2-carousel,
 .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-3-carousel {
     margin-left: -80px;
+    transition: margin 0.1s ease-in-out;
 }
 
 .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-5-carousel {
@@ -720,4 +727,5 @@ ul {
 .beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-3-carousel,
 .beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-4-carousel{
     margin-left: -80px;
+    transition: margin 0.1s ease-in-out;
 }
