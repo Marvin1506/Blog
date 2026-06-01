@@ -4,7 +4,7 @@
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Arima';
     font-style: normal;
-    font-weight: 700;
+    /* font-weight: 700; */
     src: url('./fonts/Arima/Arima-VariableFont_wght.ttf') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
@@ -555,16 +555,12 @@ ul {
 }
 
 
-.content-frame-graph {
-    /* max-width: 1440px; */
-    width: 100%;
-}
-
 .design-h2-graph {
     font-family: Palanquin;
     font-size: 40px;
     color: #4EA487;
     line-height: 120%;
+    font-weight: 600;
 }
 
 .desing-h1-graph {
@@ -580,6 +576,7 @@ ul {
     margin-left: 118px;
     margin-right: 118px;
     display: flex;
+    
 }
 
 .main-text {
@@ -588,24 +585,30 @@ ul {
     margin-bottom: 32px;
     line-height: 110%;
     font-weight: 400;
+    max-width: 902px;
+    color: #54370D;
+}
+
+.text-color-main {
+    color: #54370D
 }
 
 .info-img {
     height: 18px;
     width: 16px;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .info-img-glasses {
     height: 7px;
     width: 20px;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .info-img-eye {
     height: 14px;
     width: 20px;
-    margin-right: 10px;
+    margin-right: 6px;
 }
 
 .info {
@@ -627,7 +630,7 @@ ul {
     align-items: center;
     flex-direction: column;
     margin-left: 27px;
-    height: 389px;
+    height: auto;
     width: 272px;
     padding: 16px;
 }
@@ -645,6 +648,67 @@ ul {
     font-family: Palanquin;
     font-weight: 400;
     line-height: 120%;
+}
+
+.text-size-author {
+    font-weight: bold;
+}
+
+.author-font {
+    font-family: Arima;
+    line-height: 120%;
+    font-size: 18px;
+}
+
+.section01-text{
+    margin-top: 50px;
+    color: #3D3D3D;
+    font-family: Palanquin;
+    font-size: 24px;
+    line-height: 120%;
+    width: 1200px;
+    margin-left: 118px;
+    margin-right: 118px;
+    margin-bottom: 80px;
+}
+
+.article03-sec2-style {
+    margin-left: 118px;
+    margin-right: 118px;
+    width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article03-sec2-h2 {
+    color: #54370D;
+    font-weight: bold;
+    font-family: Arima;
+    font-size: 32px;
+    line-height: 120%;
+    text-align: center;
+}
+
+.article03-sec2-img {
+    width: 640px;
+    height: 436px;
+}
+
+.article03-sec2-img-box{
+    border-radius: 53px;
+    box-shadow: -2px 4px 11.6px 0px rgba(0, 0, 0, 0.25);
+    margin-top: 15px;
+}
+
+.article03-sec1-text{
+    margin-top: 80px;
+    font-family: Palanquin;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 120%;
+    margin-bottom: 80px;
 }
 
 .beach-destinations-images-div-carousel {
