@@ -68,7 +68,7 @@
 .page-footer {
     max-width: 1440px;
     display: flex;
-    flex-direction: row;
+    justify-direction: row;
 }
 
 .footer-left {
@@ -576,6 +576,7 @@ ul {
     margin-left: 118px;
     margin-right: 118px;
     display: flex;
+    justify-content: center;
     
 }
 
@@ -587,6 +588,11 @@ ul {
     font-weight: 400;
     max-width: 902px;
     color: #54370D;
+
+}
+
+.article03-sec1-box {
+    text-align: center;
 }
 
 .text-color-main {
@@ -669,7 +675,13 @@ ul {
     width: 1200px;
     margin-left: 118px;
     margin-right: 118px;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+
+}
+
+.article02-sec1-text-box {
+    display: flex;
+    justify-content: center;
 }
 
 .article03-sec2-style {
@@ -680,6 +692,11 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.article03-sec2-box {
+    display: flex;
+    justify-content: center;
 }
 
 .article03-sec2-h2 {
