@@ -5,6 +5,7 @@
     font-family: 'Arima';
     font-style: normal;
     font-weight: 700;
+    font-weight: 500;
     src: url('./fonts/Arima/Arima-VariableFont_wght.ttf') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
@@ -311,18 +312,15 @@ ul {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    position: relative;
 }
 
 .page02-follow-me {
-
     width: 493px;
     height: 154px;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 .page02-follow-me > p {
@@ -332,11 +330,14 @@ ul {
     letter-spacing: 0%;
     font-size: 24px;
     color: #54370D;
+
+    display: flex;
+    text-align: center;
 }
 
-#page02-button{
+#page02-button {
 
-     width: 158px;
+    width: 158px;
     height: 48px;
 
     font-family: Arima;
@@ -348,13 +349,28 @@ ul {
     gap: 8px;
     background-color: #4EA487;
     border-radius: 40px;
+    border: none;
+    margin-top: 48px;
 
-    margin-top: 58px;
 }
 
-#page02-button > img{
+#page02-button>img {
     width: 32px;
     height: 32px;
+
+}
+
+#arrow {
+    margin: 38px 375px 0px 0px;
+    position: absolute;
+}
+
+.page02-share-button {
+    display: flex;
+    justify-content: center;
+    gap: 53px;
+
+
 }
 
 
