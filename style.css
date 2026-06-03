@@ -89,7 +89,7 @@
     /* Ohne diesen Befehl habe ich immer einen Zeilenumbruch... Unkalr warum.. */
 }
 
-.footer-left-links>a {
+.footer-left-links a {
     color: #f8f5eb;
     text-decoration: none;
 }
@@ -381,6 +381,10 @@ ul {
 
 }
 
+#Useful-link {
+    color: #4EA487;
+}
+
 
 .main-content-carousel {
     display: flex;
@@ -400,6 +404,11 @@ ul {
     flex-direction: row;
     gap: 32px;
 
+}
+.travel-blog-copyright{
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
 .page02-read-share-wrapper-second-line {
@@ -578,13 +587,35 @@ ul {
     }
 
     #arrow2 {
-        display:flex;
+        display: flex;
         transform: rotate(27deg);
         width: 50px;
         margin: 16px 263px 10px 22px;
         position: absolute;
     }
 
+   
+  
+
+    .footer-left-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #imprint{
+     order:-1;
+
+    }
+
+    #Travel{
+        order: 1;
+    }
+
+    .footer-left > img {
+        padding-top: 60px;
+        margin-left: 10px;
+    }
 }
 
 .page02-main-section-author>p {
@@ -949,7 +980,7 @@ ul {
     color: rgba(61, 61, 61, 1);
 }
 
-.article03-sec3{
+.article03-sec3 {
     display: flex;
     justify-content: center;
 }
@@ -957,7 +988,7 @@ ul {
 .article03-sec3-text {
     font-family: Palanquin;
     font-weight: 400;
-    font-size: 24px;    
+    font-size: 24px;
     line-height: 120%;
     color: rgba(61, 61, 61, 1);
     margin-bottom: 16px;
@@ -970,7 +1001,7 @@ ul {
     margin-bottom: 88px;
 }
 
-.article03-graph-box{
+.article03-graph-box {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -992,7 +1023,7 @@ ul {
     margin-right: auto;
 }
 
-.article03-sec4-box{
+.article03-sec4-box {
     margin-top: 88px;
     width: 493px;
     height: 154px;
@@ -1022,7 +1053,7 @@ ul {
     width: 158px;
 }
 
-.article03-sec4-innerbox{
+.article03-sec4-innerbox {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1032,7 +1063,7 @@ ul {
     position: relative;
 }
 
-.article03-sec4-img{
+.article03-sec4-img {
     width: 32px;
     height: 32px;
 }
