@@ -20,6 +20,16 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+@font-face {
+    font-display: swap;
+    /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+    font-family: 'Palanquin Dark';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/palanquin-dark-v17-latin-regular.woff2') format('woff2');
+    /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
@@ -743,11 +753,12 @@ ul {
         flex-wrap: wrap;
     }
 
-   
-    .page02-main-seciton-headline{
+
+    .page02-main-seciton-headline {
         width: fit-content;
     }
-    .page02-read-share-wrapper{
+
+    .page02-read-share-wrapper {
         width: fit-content;
     }
 
@@ -1491,4 +1502,88 @@ ul {
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 5%;
+}
+
+.home-landing-section {
+    background-color: #F1C953;
+    width: 100%;
+    height: 533px;
+}
+
+.home-complete-main-section {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.home-main-section {
+    width: 100%;
+    max-width: 1200px;
+}
+
+.home-main-section-highlights-heading {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+    margin-top: 88px;
+    font-size: 52px;
+    font-family: 'Arima';
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #4EA487;
+}
+
+.home-main-section-highlights-heading>svg {
+    width: 48px;
+    height: 48px;
+}
+
+.home-main-section-highlights-heading-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin: 0px 110px  88px 110px;
+}
+
+.home-main-section-changing-images {
+    background-image: url(./images/img_page_02/header\ photo.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 533px;
+    position: relative;
+
+}
+
+.home-main-section-changing-images-text {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+margin: 54px 281px 250px 38px;
+}
+
+.home-main-section-changing-images-text>h4 {
+
+    font-family: 'Palanquin Dark';
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #FFFFFF;
+
+
+}
+
+.home-main-section-changing-images-text>p {
+    color: #FFFFFF;
+    line-height: 120%;
+    letter-spacing: 0%;
+    font-family: 'Palanquin';
+    font-size: 28px;
+
 }
