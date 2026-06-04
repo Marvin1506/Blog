@@ -922,6 +922,7 @@ ul {
 
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .article03-sec4-link-focus {
