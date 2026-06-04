@@ -1729,4 +1729,21 @@ ul {
         font-size: 20px;
     }
 
+    .beach-images-wrapper-carousel {
+        height: 343px;
+        width: 400px;
+    }
+
+    .beach-solo-image-wrapper-carousel {
+        width: 200px;
+        min-width: 200px;
+        height: 293px;
+    }
+
+    .beach-images-carousel {
+        width: 200px;
+        height: 293px;
+        min-width: 200px;
+    }
+
 }
