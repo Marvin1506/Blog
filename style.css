@@ -776,6 +776,7 @@ ul {
 
 }
 
+
 .carousel-articel-author-wrapper {
     display: flex;
 }
@@ -794,6 +795,12 @@ ul {
     letter-spacing: 0%;
     height: 48px;
     width: 608px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1201px) {
+    .carousel-ocean-soul-headline {
+        font-size: 20px;
+    }
 }
 
 .carousel-breathtaking-beaches-headline {
