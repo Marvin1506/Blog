@@ -121,6 +121,7 @@
 
 .footer-right>img {
     height: 32px;
+    cursor: pointer;
 }
 
 .page02-main-seciton-headline>h1 {
