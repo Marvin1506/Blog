@@ -87,6 +87,10 @@
 
 }
 
+.copyright-logo-carousel {
+    padding-right: 5px;
+}
+
 .footer-left {
     display: flex;
     align-items: center;
@@ -117,6 +121,7 @@
 
 .footer-right>img {
     height: 32px;
+    cursor: pointer;
 }
 
 .page02-main-seciton-headline>h1 {
@@ -451,324 +456,6 @@ ul {
 
 .footer-mobile-version {
     display: none;
-}
-
-@media only screen and (max-width: 768px) {
-    .header-nav {
-        display: none;
-    }
-
-    .page-footer {
-        height: 134px;
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-
-    .footer-left {
-        margin: 0;
-        padding-left: 0;
-    }
-
-    .page02-main-section-author-wrapper {
-        width: fit-content;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .page-header {
-        display: flex;
-        justify-content: center;
-        padding-left: 0;
-    }
-
-
-
-    .page02-main-video {
-        width: 100%;
-    }
-
-
-    .page02-main-seciton-headline,
-    .page02-read-share-wrapper,
-    .page02-main-text,
-    .page02-ending-section-wrapper {
-        width: 100%;
-        padding: 0px 15px 0px 15px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        justify-content: center;
-    }
-
-    .page02-main-seciton-headline>h1 {
-        font-size: 20px;
-    }
-
-    .page02-main-seciton-headline>h2 {
-        font-size: 40px;
-
-    }
-
-    p {
-        font-size: 16px;
-    }
-
-    .page02-main-seciton-headline {
-        display: flex;
-        align-items: start;
-        text-align: start;
-        padding-top: 24px;
-    }
-
-    .page02-main-seciton-headline>p {
-        font-size: 18px;
-        margin-bottom: 24px;
-    }
-
-    .page02-read-share-wrapper {
-        display: flex;
-        align-items: start;
-        text-align: start;
-        justify-content: left;
-        gap: 8px;
-        margin-bottom: 24px;
-    }
-
-    .page02-read-share-wrapper-first-line,
-    .page02-read-share-wrapper-second-line {
-
-        gap: 16px;
-
-    }
-
-    .page02-main-section-author {
-        width: 345px;
-        height: 328px;
-        margin: 0px 15px 0px 15px;
-        padding: 0px;
-        margin-bottom: 40px;
-
-    }
-
-    #name,
-    #author {
-        font-size: 16px;
-    }
-
-    #author {
-        margin-bottom: 8px;
-    }
-
-    .page02-main-section-author img {
-        margin-top: 16px;
-    }
-
-    .page02-main-text p,
-    li {
-        font-size: 16px;
-    }
-
-    .page02-main-video {
-        padding: 0px;
-        margin: 24px 0px;
-    }
-
-    .page02-main-text {
-        text-align: start;
-        margin-bottom: 120px;
-    }
-
-    .page02-main-text-list-introduction {
-        padding-top: 24px;
-    }
-
-    .points::marker {
-        font-size: 10px;
-    }
-
-    .page02-main-text-list {
-
-        margin-bottom: 24px;
-    }
-
-
-
-
-    .page02-ending-section-wrapper {
-        margin-top: 19px;
-        padding: 0;
-    }
-
-
-
-    .page02-complete-main-section {
-        padding-top: 0;
-    }
-
-
-    .page02-pro-tips-infobox-wrapper {
-        margin: 32px 0px;
-    }
-
-    .page02-pro-tips-infobox li {
-        font-size: 16px;
-    }
-
-    .page02-pro-tips-infobox {
-        margin: 0;
-        margin-top: 71px;
-
-    }
-
-    .page02-pro-tips-infobox ol {
-        position: relative;
-        padding: 24px 11px 24px 22px;
-        margin-left: 11px;
-        text-align: left;
-    }
-
-    .page02-pro-tips-icon {
-        top: 7px;
-        left: 1px;
-    }
-
-    .page02-ending-section-wrapper {
-        margin-top: 32px;
-    }
-
-    #arrow {
-        display: none;
-
-        transform: rotate(27deg);
-        width: 50px;
-        margin: 16px 263px 10px 22px;
-        position: absolute;
-    }
-
-    #arrow2 {
-        display: flex;
-        transform: rotate(7deg);
-        width: 50px;
-        margin: 16px 316px 10px 22px;
-        position: absolute;
-    }
-
-    .page02-follow-me>p {
-        font-size: 18px;
-
-    }
-
-    .page02-follow-me {
-        width: fit-content;
-    }
-
-    .footer-left-links {
-        display: flex;
-        flex-direction: column;
-        gap: 0;
-    }
-
-    #imprint {
-        order: -1;
-
-    }
-
-    .travel-blog-copyright {
-        order: 1;
-    }
-
-    .footer-left>img {
-        padding-top: 60px;
-        margin-left: 10px;
-    }
-
-    .footer-right>img {
-        height: 24px;
-    }
-
-
-
-    .footer-right {
-        margin-right: 0;
-        justify-content: end;
-    }
-
-    .footer-left-links a {
-        font-size: 16px;
-    }
-
-    .footer-mobile-version {
-        height: 88px;
-        background-color: #F1C953;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
-
-
-
-
-    .page02-main-section-author>p {
-        padding: 0px 8px;
-        text-align: center;
-    }
-
-    .page-footer {
-        margin: 0;
-    }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1440px) {
-
-    .page02-main-text {
-        width: 100%;
-    }
-
-    .page02-read-share-wrapper {
-        margin-bottom: 24px;
-    }
-
-    .page02-main-section-author-wrapper {
-        width: 100%;
-        margin-left: 15px;
-        margin-right: 15px;
-        justify-content: center;
-    }
-
-    .page02-complete-main-section {
-        margin-left: 15px;
-        margin-right: 15px;
-    }
-
-    .page-header-wrapper {
-        width: 100%;
-    }
-
-    .page-footer-wrapper {
-        width: 100%;
-    }
-
-    .page02-main-section-author-wrapper {
-        flex-wrap: wrap;
-    }
-
-
-    .page02-main-seciton-headline {
-        width: fit-content;
-    }
-
-    .page02-read-share-wrapper {
-        width: fit-content;
-    }
-
-
-
-
-
-
-
 }
 
 .carousel-articel-author-wrapper {
@@ -1516,6 +1203,8 @@ ul {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    margin-bottom: 80px;
 }
 
 .follow-me-text-share-carousel {
@@ -1536,7 +1225,6 @@ ul {
 .share-button-carousel {
     width: 158px;
     height: 48px;
-    gap: 10px;
     border-radius: 40px;
     background-color: #4EA487;
     color: #F1C953;
@@ -1546,6 +1234,34 @@ ul {
     font-size: 24px;
     line-height: 120%;
     letter-spacing: 5%;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    position: relative;
+}
+
+.share-text-carousel {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 2px;
+    padding-left: 32px;
+}
+
+.share-icon-carousel {
+    position: absolute;
+    left: 24px;
+}
+
+.share-icon-arrow-carousel {
+    color: #F1C953;
+    z-index: 10;
+    position: absolute;
+    left: 12px;
+    top: 56px;
 }
 
 .home-landing-section {
@@ -1647,4 +1363,321 @@ ul {
     align-items: center;
     text-align: center;
     margin-bottom: 48px;
+}
+
+@media only screen and (max-width: 768px) {
+    .header-nav {
+        display: none;
+    }
+
+    .page-footer {
+        height: 134px;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+
+    .footer-left {
+        margin: 0;
+        padding-left: 0;
+    }
+
+    .page02-main-section-author-wrapper {
+        width: fit-content;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page-header {
+        display: flex;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+
+
+    .page02-main-video {
+        width: 100%;
+    }
+
+
+    .page02-main-seciton-headline,
+    .page02-read-share-wrapper,
+    .page02-main-text,
+    .page02-ending-section-wrapper {
+        width: 100%;
+        padding: 0px 15px 0px 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .page02-main-seciton-headline>h1 {
+        font-size: 20px;
+    }
+
+    .page02-main-seciton-headline>h2 {
+        font-size: 40px;
+
+    }
+
+    p {
+        font-size: 16px;
+    }
+
+    .page02-main-seciton-headline {
+        display: flex;
+        align-items: start;
+        text-align: start;
+        padding-top: 24px;
+    }
+
+    .page02-main-seciton-headline>p {
+        font-size: 18px;
+        margin-bottom: 24px;
+    }
+
+    .page02-read-share-wrapper {
+        display: flex;
+        align-items: start;
+        text-align: start;
+        justify-content: left;
+        gap: 8px;
+        margin-bottom: 24px;
+    }
+
+    .page02-read-share-wrapper-first-line,
+    .page02-read-share-wrapper-second-line {
+
+        gap: 16px;
+
+    }
+
+    .page02-main-section-author {
+        width: 345px;
+        height: 328px;
+        margin: 0px 15px 0px 15px;
+        padding: 0px;
+        margin-bottom: 40px;
+
+    }
+
+    #name,
+    #author {
+        font-size: 16px;
+    }
+
+    #author {
+        margin-bottom: 8px;
+    }
+
+    .page02-main-section-author img {
+        margin-top: 16px;
+    }
+
+    .page02-main-text p,
+    li {
+        font-size: 16px;
+    }
+
+    .page02-main-video {
+        padding: 0px;
+        margin: 24px 0px;
+    }
+
+    .page02-main-text {
+        text-align: start;
+        margin-bottom: 120px;
+    }
+
+    .page02-main-text-list-introduction {
+        padding-top: 24px;
+    }
+
+    .points::marker {
+        font-size: 10px;
+    }
+
+    .page02-main-text-list {
+
+        margin-bottom: 24px;
+    }
+
+
+
+
+    .page02-ending-section-wrapper {
+        margin-top: 19px;
+        padding: 0;
+    }
+
+
+
+    .page02-complete-main-section {
+        padding-top: 0;
+    }
+
+
+    .page02-pro-tips-infobox-wrapper {
+        margin: 32px 0px;
+    }
+
+    .page02-pro-tips-infobox li {
+        font-size: 16px;
+    }
+
+    .page02-pro-tips-infobox {
+        margin: 0;
+        margin-top: 71px;
+
+    }
+
+    .page02-pro-tips-infobox ol {
+        position: relative;
+        padding: 24px 11px 24px 22px;
+        margin-left: 11px;
+        text-align: left;
+    }
+
+    .page02-pro-tips-icon {
+        top: 7px;
+        left: 1px;
+    }
+
+    .page02-ending-section-wrapper {
+        margin-top: 32px;
+    }
+
+    #arrow {
+        display: none;
+
+        transform: rotate(27deg);
+        width: 50px;
+        margin: 16px 263px 10px 22px;
+        position: absolute;
+    }
+
+    #arrow2 {
+        display: flex;
+        transform: rotate(7deg);
+        width: 50px;
+        margin: 16px 316px 10px 22px;
+        position: absolute;
+    }
+
+    .page02-follow-me>p {
+        font-size: 18px;
+
+    }
+
+    .page02-follow-me {
+        width: fit-content;
+    }
+
+    .footer-left-links {
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    #imprint {
+        order: -1;
+
+    }
+
+    .travel-blog-copyright {
+        order: 1;
+    }
+
+    .footer-left>img {
+        padding-top: 60px;
+        margin-left: 10px;
+    }
+
+    .footer-right>img {
+        height: 24px;
+    }
+
+
+
+    .footer-right {
+        margin-right: 0;
+        justify-content: end;
+    }
+
+    .footer-left-links a {
+        font-size: 16px;
+    }
+
+    .footer-mobile-version {
+        height: 88px;
+        background-color: #F1C953;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+    .page02-main-section-author>p {
+        padding: 0px 8px;
+        text-align: center;
+    }
+
+    .page-footer {
+        margin: 0;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .page02-main-text {
+        width: 100%;
+    }
+
+    .page02-read-share-wrapper {
+        margin-bottom: 24px;
+    }
+
+    .page02-main-section-author-wrapper {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center;
+    }
+
+    .page02-complete-main-section {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .page-header-wrapper {
+        width: 100%;
+    }
+
+    .page-footer-wrapper {
+        width: 100%;
+    }
+
+    .page02-main-section-author-wrapper {
+        flex-wrap: wrap;
+    }
+
+
+    .page02-main-seciton-headline {
+        width: fit-content;
+    }
+
+    .page02-read-share-wrapper {
+        width: fit-content;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1201px) {
+    .carousel-ocean-soul-headline {
+        font-size: 20px;
+    }
 }
