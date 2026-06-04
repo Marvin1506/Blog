@@ -62,29 +62,32 @@
 
 .page-footer-wrapper {
     background-color: #4EA487;
+    width: 100%;
 
 }
 
 .page-footer {
-
     display: flex;
     flex-direction: row;
+
+    justify-content: space-between;
+    margin-left: 120px;
+    margin-right: 120px;
 
 }
 
 .footer-left {
     display: flex;
     align-items: center;
-    margin: 60px 500px 60px 0;
+    /*     margin: 60px 500px 60px 0;
+ */
     /* padding-left: 120px; */
-    margin-left: 120px;
 }
 
 .footer-left-links {
     font-family: Palanquin;
     display: flex;
     gap: 72px;
-    padding-left: 5px;
     flex-shrink: 0;
     /* Ohne diesen Befehl habe ich immer einen Zeilenumbruch... Unkalr warum.. */
 }
@@ -99,7 +102,6 @@
     display: flex;
     align-items: center;
     gap: 16px;
-    margin-right: 120px;
 }
 
 .footer-right>img {
@@ -199,7 +201,7 @@
 }
 
 .page02-main-section-author-wrapper {
-    width: 1200px;
+    max-width: 1200px;
     justify-content: space-between;
     display: flex;
     flex-direction: row;
@@ -235,7 +237,7 @@
 }
 
 .page02-main-text {
-    width: 1200px;
+    max-width: 1200px;
     display: flex;
     flex-direction: column;
     margin-bottom: 88px;
@@ -301,35 +303,32 @@ ul {
 
 .page02-pro-tips-infobox {
 
-    
+
     margin-left: 51px;
     margin-top: 65px;
-
+    background-color: #4EA48733;
+    height: fit-content
 }
 
 .page02-pro-tips-infobox li {
     font-size: 24px;
-    
 }
 
 .page02-pro-tips-infobox ol {
-    padding: 26px 16px 24px 16px;
-    margin-left: 16px;
-        background-color: #4EA48733;
+    padding: 26px 16px 24px 35px;
 }
 
 
 .page02-pro-tips-infobox-wrapper {
     position: relative;
-    height: 260px;
     margin: 88px 33px;
 
     display: flex;
 }
 
 .page02-ending-section-wrapper {
-    width: 1130px;
-
+    margin-left: 33px;
+    margin-right: 33px;
 }
 
 .page02-share-wrapper {
@@ -598,30 +597,31 @@ ul {
     }
 
 
-    .page02-pro-tips-infobox-wrapper{
-          margin: 32px 0px;
-              height: 309px;
+    .page02-pro-tips-infobox-wrapper {
+        margin: 32px 0px;
     }
 
     .page02-pro-tips-infobox li {
-    font-size: 16px;
-}
+        font-size: 16px;
+    }
 
-.page02-pro-tips-infobox{
-    margin: 0;
-    margin-top: 71px;
-    
-}
-.page02-pro-tips-infobox ol {
-    position: relative;
-    padding: 24px 11px 24px 22px;
-    margin-left: 11px;
-    text-align: left;
-}
-.page02-pro-tips-icon {
-    top: 7px;
-    left: 1px;
-}
+    .page02-pro-tips-infobox {
+        margin: 0;
+        margin-top: 71px;
+
+    }
+
+    .page02-pro-tips-infobox ol {
+        position: relative;
+        padding: 24px 11px 24px 22px;
+        margin-left: 11px;
+        text-align: left;
+    }
+
+    .page02-pro-tips-icon {
+        top: 7px;
+        left: 1px;
+    }
 
     .page02-ending-section-wrapper {
         margin-top: 32px;
@@ -704,12 +704,58 @@ ul {
         text-align: center;
     }
 
-    @media screen and (min-width: 600px) and (max-width: 144px) {
-
-        .page02-complete-main-section {
-            padding: 80px calc(50% - 720px) 0;
-        }
+    .page-footer {
+        margin: 0;
     }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
+
+    .page02-main-text {
+        width: 100%;
+    }
+
+    .page02-read-share-wrapper {
+        margin-bottom: 24px;
+    }
+
+    .page02-main-section-author-wrapper {
+        width: 100%;
+        margin-left: 15px;
+        margin-right: 15px;
+        justify-content: center;
+    }
+
+    .page02-complete-main-section {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .page-header-wrapper {
+        width: 100%;
+    }
+
+    .page-footer-wrapper {
+        width: 100%;
+    }
+
+    .page02-main-section-author-wrapper {
+        flex-wrap: wrap;
+    }
+
+   
+    .page02-main-seciton-headline{
+        width: fit-content;
+    }
+    .page02-read-share-wrapper{
+        width: fit-content;
+    }
+
+
+
+
+
+
 
 }
 
