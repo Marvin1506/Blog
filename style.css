@@ -966,6 +966,12 @@ ul {
     height: 32px;
 }
 
+.article03-sec4-focus-img {
+    width: 32px;
+    height: 32px;
+    margin-right: 12px;
+}
+
 .article03-sec4-text {
     font-family: Arima;
     font-weight: 500;
