@@ -1283,11 +1283,7 @@ ul {
     top: 56px;
 }
 
-.home-landing-section {
-    background-color: #F1C953;
-    width: 100%;
-    height: 533px;
-}
+
 
 .home-complete-main-section {
 
@@ -1314,7 +1310,7 @@ ul {
     font-family: 'Arima';
     font-weight: 700;
     color: #4EA487;
-        line-height: 120%; 
+    line-height: 120%;
 }
 
 .home-main-section-highlights-heading>svg {
@@ -1377,7 +1373,7 @@ ul {
     margin: 120px 0 120px 0;
 }
 
-.home-main-section-faq-heading  {
+.home-main-section-faq-heading {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1429,10 +1425,10 @@ ul {
     line-height: 120%;
     letter-spacing: 0;
 
-    background-color:#FFFFFF;
+    background-color: #FFFFFF;
 }
 
-.home-main-section-contact-heading{
+.home-main-section-contact-heading {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -1441,7 +1437,7 @@ ul {
     margin-bottom: 24px;
 }
 
-.home-text-regular{
+.home-text-regular {
     font-family: 'Palanquin';
     font-weight: 500;
     font-size: 24px;
@@ -1450,29 +1446,29 @@ ul {
     color: #54370D;
 }
 
-#home-contact-formular-table{
+#home-contact-formular-table {
     margin-top: 56px;
     margin-bottom: 16px;
     width: 100%;
-   padding: 0px 50px;
-   
+    padding: 0px 50px;
+
 }
 
-.home-contact-formular-table-data{
+.home-contact-formular-table-data {
     width: 527px;
     height: 94px;
     text-align: left;
-        border-bottom: 1px solid #54370D;
+    border-bottom: 1px solid #54370D;
 
-    
+
 }
 
-#home-contact-formular-table-row-one{
+#home-contact-formular-table-row-one {
     display: flex;
-   justify-content: space-between;
+    justify-content: space-between;
 }
 
-.home-text-privacy-policy{
+.home-text-privacy-policy {
     font-family: 'Palanquin';
     font-weight: 400;
     font-size: 15px;
@@ -1482,19 +1478,19 @@ ul {
     margin-top: 16px;
 }
 
-.home-check-box{
+.home-check-box {
     margin-top: 16px;
     width: 18px;
     height: 18px;
     user-select: none;
-    border: 1px solid #54370D; 
+    border: 1px solid #54370D;
 
-    appearance: none; 
+    appearance: none;
     -webkit-appearance: none;
-    background-color: transparent; 
+    background-color: transparent;
     /*diese Befehle sind wohl notwendig, damit der effekt bei jedem Browser greift*/
-   
-   
+
+
 }
 
 .home-check-box:hover {
@@ -1504,11 +1500,84 @@ ul {
 
 
 
-.home-text-privacy-policy-wrapper{
+.home-text-privacy-policy-wrapper {
     display: flex;
     flex-direction: row;
     justify-content: center;
     gap: 4px
+}
+
+#home-send-button {
+    border: 1px solid #737373;
+    width: 139px;
+    height: 48px;
+    border-radius: 40px;
+    font-size: 24px;
+    font-family: 'Arima';
+    font-weight: 700;
+    letter-spacing: 5%;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #737373;
+}
+
+.home-send-button-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 126px;
+}
+
+.home-landing-section {
+
+
+    background-repeat: no-repeat;
+    display: flex;
+   
+    align-items: center;
+
+
+    background-color: #F1C953;
+    width: 100%;
+    height: 533px;
+  
+}
+
+.home-landing-section > img{
+   
+}
+
+.home-main-section-text>h1 {
+    font-size: 60px;
+    font-family: 'Arima';
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #54370D;
+}
+
+.home-main-section-text>p {
+    font-size: 28px;
+    font-family: 'Palanquin';
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0;
+    color: #54370D;
+}
+
+
+.home-main-section-text {
+    margin: 144px 0px;
+    width: 345px;
+    height: 227px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 32px;
 }
 
 @media only screen and (max-width: 768px) {
