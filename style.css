@@ -15,7 +15,7 @@
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Palanquin';
     font-style: normal;
-    font-weight: 400;
+    /* font-weight: 400; */
     src: url('./fonts/palanquin-v17-latin-regular.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
@@ -888,34 +888,39 @@ ul {
     width: 158px;
 }
 
-/* .article03-sec4-link-focus a {
-    display: none;
-}
-
-.article03-sec4-focus-img {
-    display: none;
-    width: 32px;
-    height: 32px;
-}
-
-.article03-sec4-button:focus .article03-sec4-img {
-    display: none;
-}
-
-.article03-sec4-button:focus  {
-    width: 100px;
-    margin-right: 150px;
-}
-
-.article03-sec4-button:focus    .article03-sec4-link-focus a {
-    display: flex;
-} */
-
 
 .article03-sec4-button-row {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.article03-sec4-button-row:focus-within .article03-sec4-focus-row {
+    opacity: 1;
+    visibility: visible;
+    max-width: 300px; 
+    margin-left: 20px; 
+}
+
+.article03-sec4-button-row:focus-within .article03-sec4-button {
+    width: 110px; 
+    transition: width 0.3s ease; 
+}
+
+.article03-sec4-focus-row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+    max-width: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-width 0.3s ease;
+}
+
+.article03-sec4-button:focus .article03-sec4-img {
+    display: none;
 }
 
 .article03-sec4-focus-row {
@@ -928,6 +933,20 @@ ul {
 .article03-sec4-link-focus {
     display: flex;
     flex-direction: column;
+    gap: 4px;
+}
+
+.article03-sec4-link-focus a {
+    color: #4EA487;
+    text-decoration: none;
+    font-family: Arima;
+    text-decoration: underline;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.article03-sec4-link-focus a:hover {
+    text-decoration: underline;
 }
 
 
@@ -1265,11 +1284,7 @@ ul {
     top: 56px;
 }
 
-.home-landing-section {
-    background-color: #F1C953;
-    width: 100%;
-    height: 533px;
-}
+
 
 .home-complete-main-section {
 
@@ -1285,7 +1300,8 @@ ul {
 }
 
 .home-main-section-highlights-heading,
-.home-main-section-faq-heading {
+.home-main-section-faq-heading,
+.home-main-section-contact-heading {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1295,6 +1311,7 @@ ul {
     font-family: 'Arima';
     font-weight: 700;
     color: #4EA487;
+    line-height: 120%;
 }
 
 .home-main-section-highlights-heading>svg {
@@ -1364,6 +1381,204 @@ ul {
     align-items: center;
     text-align: center;
     margin-bottom: 48px;
+}
+
+.home-QandA-section-wrapper {
+    background-color: #F1C953;
+    border-radius: 12px;
+
+}
+
+.home-QandA-section {
+    font-family: 'Palanquin';
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 16px 0px 14px 16px;
+
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #54370D;
+}
+
+.home-QandA-section>svg {
+    margin-right: 14px;
+}
+
+.home-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.home-QandA-section-answer {
+    margin: 0px 14px 16px 14px;
+    border-radius: 12px;
+    display: flex;
+    text-align: left;
+    padding: 4px 24px 4px 4px;
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 16px;
+    color: #54370D;
+    line-height: 120%;
+    letter-spacing: 0;
+
+    background-color: #FFFFFF;
+}
+
+.home-main-section-contact-heading {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.home-text-regular {
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 110%;
+    color: #54370D;
+}
+
+#home-contact-formular-table {
+    margin-top: 56px;
+    margin-bottom: 16px;
+    width: 100%;
+    padding: 0px 50px;
+
+}
+
+.home-contact-formular-table-data {
+    width: 527px;
+    height: 94px;
+    text-align: left;
+    border-bottom: 1px solid #54370D;
+
+
+}
+
+#home-contact-formular-table-row-one {
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-text-privacy-policy {
+    font-family: 'Palanquin';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 120%;
+    color: #54370D;
+    margin-top: 16px;
+}
+
+.home-check-box {
+    margin-top: 16px;
+    width: 18px;
+    height: 18px;
+    user-select: none;
+    border: 1px solid #54370D;
+
+    appearance: none;
+    -webkit-appearance: none;
+    background-color: transparent;
+    /*diese Befehle sind wohl notwendig, damit der effekt bei jedem Browser greift*/
+
+
+}
+
+.home-check-box:hover {
+    background-color: #f0e6df;
+}
+
+
+
+
+.home-text-privacy-policy-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px
+}
+
+#home-send-button {
+    border: 1px solid #737373;
+    width: 139px;
+    height: 48px;
+    border-radius: 40px;
+    font-size: 24px;
+    font-family: 'Arima';
+    font-weight: 700;
+    letter-spacing: 5%;
+    line-height: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #737373;
+}
+
+.home-send-button-wrapper {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 126px;
+}
+
+.home-landing-section {
+
+
+    background-repeat: no-repeat;
+    display: flex;
+   
+    align-items: center;
+
+
+    background-color: #F1C953;
+    width: 100%;
+    height: 533px;
+  
+}
+
+.home-landing-section > img{
+   
+}
+
+.home-main-section-text>h1 {
+    font-size: 60px;
+    font-family: 'Arima';
+    font-weight: 700;
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #54370D;
+}
+
+.home-main-section-text>p {
+    font-size: 28px;
+    font-family: 'Palanquin';
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0;
+    color: #54370D;
+}
+
+
+.home-main-section-text {
+    margin: 144px 0px;
+    width: 345px;
+    height: 227px;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    gap: 32px;
 }
 
 @media only screen and (max-width: 768px) {
@@ -1663,6 +1878,12 @@ ul {
         width: 100%;
     }
 
+    .page-footer {
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .page02-main-section-author-wrapper {
         flex-wrap: wrap;
     }
@@ -1677,8 +1898,74 @@ ul {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1201px) {
+@media screen and (max-width: 1201px) {
+    .flexbox-author-articel-carousel {
+        flex-direction: column;
+        padding-top: 24px;
+    }
+
     .carousel-ocean-soul-headline {
+        width: 304px;
+        height: 24px;
         font-size: 20px;
     }
+
+    .carousel-breathtaking-beaches-headline {
+        width: 343px;
+        height: 120px;
+        font-size: 40px;
+    }
+
+    .carousel-beaches-description {
+        width: 343px;
+        height: 88px;
+        font-size: 18px;
+    }
+
+    .carousel-read-share-wrapper {
+        width: 345px;
+        height: 46px;
+        padding-top: 0px;
+        margin-top: 24px;
+        flex-wrap: wrap;
+        row-gap: 8px;
+    }
+
+    .author-info-wrapper {
+        width: 345px;
+        height: 328px;
+        margin-left: 0px;
+        padding-top: 16px;
+        padding-left: 8px;
+        padding-bottom: 16px;
+        padding-right: 8px;
+        margin-top: 24px;
+    }
+
+    .author-info-text-carousel {
+        text-align: center;
+    }
+
+    .beach-destinations-headline-carousel {
+        height: 25px;
+        font-size: 20px;
+    }
+
+    .beach-images-wrapper-carousel {
+        height: 343px;
+        width: 400px;
+    }
+
+    .beach-solo-image-wrapper-carousel {
+        width: 200px;
+        min-width: 200px;
+        height: 293px;
+    }
+
+    .beach-images-carousel {
+        width: 200px;
+        height: 293px;
+        min-width: 200px;
+    }
+
 }
