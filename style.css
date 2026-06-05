@@ -950,8 +950,6 @@ ul {
 }
 
 
-
-
 .article03-sec4-innerbox {
     display: flex;
     flex-direction: column;
@@ -1587,6 +1585,19 @@ ul {
     gap: 32px;
 }
 
+
+
+.Imp-Style {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 40px;
+    font-family: Palanquin;
+}
+
+.Imp-Style h1,h2  {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 768px) {
     .header-nav {
         display: none;
@@ -1975,3 +1986,6 @@ ul {
     }
 
 }
+
+
+
