@@ -642,7 +642,14 @@ ul {
 }
 
 
-.design-h2-graph {
+.article03-sec-1-mainbox {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article3-sec-1-design-h2-graph {
     font-family: Palanquin;
     font-size: 40px;
     color: #4EA487;
@@ -650,7 +657,7 @@ ul {
     font-weight: 600;
 }
 
-.desing-h1-graph {
+.article3-sec-1-design-h1-graph {
     font-family: Arima;
     font-size: 64px;
     font-weight: 700;
@@ -658,7 +665,7 @@ ul {
     line-height: 120%;
 }
 
-.main-config-graph {
+.article3-sec-1-main-config-graph {
     margin-top: 80px;
     margin-left: 118px;
     margin-right: 118px;
@@ -667,7 +674,7 @@ ul {
 
 }
 
-.main-text {
+.article3-sec-1-main-text {
     font-family: Palanquin;
     font-size: 28px;
     margin-bottom: 32px;
@@ -682,29 +689,29 @@ ul {
     text-align: center;
 }
 
-.text-color-main {
+.article3-sec-1-text-color-main {
     color: #54370D
 }
 
-.info-img {
+.article3-sec-1-info-img {
     height: 18px;
     width: 16px;
     margin-right: 6px;
 }
 
-.info-img-glasses {
+.article3-sec-1-info-img-glasses {
     height: 7px;
     width: 20px;
     margin-right: 6px;
 }
 
-.info-img-eye {
+.article3-sec-1-info-img-eye {
     height: 14px;
     width: 20px;
     margin-right: 6px;
 }
 
-.info {
+.article3-sec-1-info {
     display: flex;
     align-items: center;
     font-family: Palanquin;
@@ -712,11 +719,11 @@ ul {
     font-weight: 400;
 }
 
-.info-distance {
+.article3-sec-1-info-distance {
     padding-right: 32px;
 }
 
-.main-author-box {
+.article3-sec-1-main-author-box {
     border-radius: 30px;
     background: #4EA48733;
     display: flex;
@@ -728,7 +735,7 @@ ul {
     padding: 16px;
 }
 
-.img-Tamara {
+.article3-sec-1-img-Tamara {
     height: 120px;
     width: 120px;
     object-fit: cover;
@@ -736,24 +743,24 @@ ul {
     border-radius: 50%
 }
 
-.author-info-text {
+.article3-sec-1-author-info-text {
     font-size: 16px;
     font-family: Palanquin;
     font-weight: 400;
     line-height: 120%;
 }
 
-.text-size-author {
+.article3-sec-1-text-size-author {
     font-weight: bold;
 }
 
-.author-font {
+.article3-sec-1-author-font {
     font-family: Arima;
     line-height: 120%;
     font-size: 18px;
 }
 
-.section01-text {
+.article3-sec-1-text {
     margin-top: 50px;
     color: #3D3D3D;
     font-family: Palanquin;
@@ -766,7 +773,7 @@ ul {
 
 }
 
-.article02-sec1-text-box {
+.article03-sec-1-text-box {
     display: flex;
     justify-content: center;
 }
