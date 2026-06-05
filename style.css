@@ -1662,6 +1662,12 @@ ul {
         width: 100%;
     }
 
+    .page-footer{
+        flex-direction:row;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
     .page02-main-section-author-wrapper {
         flex-wrap: wrap;
     }
