@@ -15,7 +15,7 @@
     /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
     font-family: 'Palanquin';
     font-style: normal;
-    font-weight: 400;
+    /* font-weight: 400; */
     src: url('./fonts/palanquin-v17-latin-regular.woff2') format('woff2');
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
@@ -1284,7 +1284,8 @@ ul {
 }
 
 .home-main-section-highlights-heading,
-.home-main-section-faq-heading {
+.home-main-section-faq-heading,
+.home-main-section-contact-heading {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -1294,6 +1295,7 @@ ul {
     font-family: 'Arima';
     font-weight: 700;
     color: #4EA487;
+        line-height: 120%; 
 }
 
 .home-main-section-highlights-heading>svg {
@@ -1356,13 +1358,138 @@ ul {
     margin: 120px 0 120px 0;
 }
 
-.home-main-section-faq-heading {
+.home-main-section-faq-heading  {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     text-align: center;
     margin-bottom: 48px;
+}
+
+.home-QandA-section-wrapper {
+    background-color: #F1C953;
+    border-radius: 12px;
+
+}
+
+.home-QandA-section {
+    font-family: 'Palanquin';
+    font-weight: 700;
+    font-size: 24px;
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    padding: 16px 0px 14px 16px;
+
+    line-height: 120%;
+    letter-spacing: 0;
+    color: #54370D;
+}
+
+.home-QandA-section>svg {
+    margin-right: 14px;
+}
+
+.home-questions {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.home-QandA-section-answer {
+    margin: 0px 14px 16px 14px;
+    border-radius: 12px;
+    display: flex;
+    text-align: left;
+    padding: 4px 24px 4px 4px;
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 16px;
+    color: #54370D;
+    line-height: 120%;
+    letter-spacing: 0;
+
+    background-color:#FFFFFF;
+}
+
+.home-main-section-contact-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.home-text-regular{
+    font-family: 'Palanquin';
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: 110%;
+    color: #54370D;
+}
+
+#home-contact-formular-table{
+    margin-top: 56px;
+    margin-bottom: 16px;
+    width: 100%;
+   padding: 0px 50px;
+   
+}
+
+.home-contact-formular-table-data{
+    width: 527px;
+    height: 94px;
+    text-align: left;
+        border-bottom: 1px solid #54370D;
+
+    
+}
+
+#home-contact-formular-table-row-one{
+    display: flex;
+   justify-content: space-between;
+}
+
+.home-text-privacy-policy{
+    font-family: 'Palanquin';
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0;
+    line-height: 120%;
+    color: #54370D;
+    margin-top: 16px;
+}
+
+.home-check-box{
+    margin-top: 16px;
+    width: 18px;
+    height: 18px;
+    user-select: none;
+    border: 1px solid #54370D; 
+
+    appearance: none; 
+    -webkit-appearance: none;
+    background-color: transparent; 
+    /*diese Befehle sind wohl notwendig, damit der effekt bei jedem Browser greift*/
+   
+   
+}
+
+.home-check-box:hover {
+    background-color: #f0e6df;
+}
+
+
+
+
+.home-text-privacy-policy-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px
 }
 
 @media only screen and (max-width: 768px) {
@@ -1662,8 +1789,8 @@ ul {
         width: 100%;
     }
 
-    .page-footer{
-        flex-direction:row;
+    .page-footer {
+        flex-direction: row;
         align-items: center;
         flex-wrap: wrap;
     }
