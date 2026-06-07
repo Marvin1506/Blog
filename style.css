@@ -1609,6 +1609,10 @@ ul {
     display: none;
 }
 
+.marked-photo-div-wrapper-carousel {
+    display: none;
+}
+
 @media only screen and (max-width: 768px) {
     .header-nav {
         display: none;
@@ -1995,6 +1999,27 @@ ul {
         width: 200px;
         height: 293px;
         min-width: 200px;
+    }
+
+    .marked-photo-div-wrapper-carousel {
+        display: flex;
+        justify-content: center;
+        height: 42px;
+        gap: 8px;
+    }
+
+    .marked-photo-marker-carousel {
+        width: 40px;
+        height: 22px;
+        border-radius: 50px;
+        background-color: #4EA487;
+    }
+
+    .unmarked-photo-marker-carousel {
+        width: 22px;
+        height: 22px;
+        border-radius: 50px;
+        background-color: #4EA4874D;
     }
 
     .lorem-text-carousel-div {
