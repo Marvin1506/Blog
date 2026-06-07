@@ -1991,78 +1991,6 @@ ul {
         font-size: 20px;
     }
 
-    .beach-images-wrapper-carousel {
-        height: 343px;
-        width: 400px;
-        overflow-x: auto;
-        justify-content: unset;
-        margin-top: 37px;
-        max-width: 500px;
-    }
-
-    .beach-solo-image-wrapper-carousel {
-        width: 200px;
-        min-width: 200px;
-        height: 293px;
-        perspective: 600px;
-        margin-left: 0px;
-    }
-
-    .image-1-carousel {
-        z-index: 1;
-        transform: rotateY(-0deg);
-        box-shadow: -9px 5px 20px 0px #00000040;
-        cursor: pointer;
-    }
-
-    .image-1-carousel:hover {
-        transform: rotateY(0deg);
-        margin-left: 0px;
-        transition: margin 0.1s ease-in-out;
-    }
-
-    .image-2-carousel {
-        z-index: 2;
-        transform: rotateY(-25deg);
-        box-shadow: -9px 5px 20px 0px #00000040;
-        cursor: pointer;
-    }
-
-    .image-2-carousel:hover {
-        transform: rotateY(0deg);
-        margin-left: 0px;
-        transition: margin 0.1s ease-in-out;
-    }
-
-    .beach-images-carousel {
-        width: 200px;
-        height: 293px;
-        min-width: 200px;
-    }
-
-    .marked-photo-div-wrapper-carousel {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-top: 34px;
-        height: 42px;
-        gap: 8px;
-    }
-
-    .marked-photo-marker-carousel {
-        width: 40px;
-        height: 22px;
-        border-radius: 50px;
-        background-color: #4EA487;
-    }
-
-    .unmarked-photo-marker-carousel {
-        width: 22px;
-        height: 22px;
-        border-radius: 50px;
-        background-color: #4EA4874D;
-    }
-
     .lorem-text-carousel-div {
         width: 343px;
         height: 209px;
@@ -2134,6 +2062,118 @@ ul {
         z-index: 10;
         left: 70px;
         top: 90px;
+    }
+
+    .marked-photo-div-wrapper-carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 34px;
+        height: 42px;
+        gap: 8px;
+    }
+
+    .marked-photo-marker-carousel {
+        width: 40px;
+        height: 22px;
+        border-radius: 50px;
+        background-color: #4EA487;
+    }
+
+    .unmarked-photo-marker-carousel {
+        width: 22px;
+        height: 22px;
+        border-radius: 50px;
+        background-color: #4EA4874D;
+    }
+
+     .beach-images-wrapper-carousel {
+        height: 343px;
+        width: 400px;
+        overflow-x: auto;
+        justify-content: unset;
+        margin-top: 37px;
+        max-width: 500px;
+    }
+
+    .beach-solo-image-wrapper-carousel {
+        width: 200px;
+        min-width: 200px;
+        height: 293px;
+        perspective: 600px;
+        margin-left: 0px;
+    }
+
+    .image-1-carousel {
+        z-index: 1;
+        transform: rotateY(-0deg);
+        box-shadow: -9px 5px 20px 0px #00000040;
+        cursor: pointer;
+    }
+
+    .image-1-carousel:hover {
+        transform: rotateY(0deg);
+        margin-left: 0px;
+        transition: margin 0.1s ease-in-out;
+    }
+
+    .image-2-carousel {
+        z-index: 2;
+        transform: rotateY(-25deg);
+        box-shadow: -9px 5px 20px 0px #00000040;
+        cursor: pointer;
+    }
+
+    .image-2-carousel:hover {
+        transform: rotateY(0deg);
+        margin-left: 0px;
+        transition: margin 0.1s ease-in-out;
+    }
+
+    .beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-1-carousel {
+        margin-left: -12px;
+        transition: margin 0.1s ease-in-out;
+        transform: rotateY(25deg);
+    }
+
+    .beach-images-carousel {
+        width: 200px;
+        height: 293px;
+        min-width: 200px;
+    }
+
+    .beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-3-carousel {
+        margin-left: 12px;
+        transition: margin 0.1s ease-in-out;
+    }
+
+    .image-3-carousel {
+    z-index: 3;
+    transform: rotateY(25deg);
+    box-shadow: -9px 5px 20px 0px #00000040;
+    cursor: pointer;
+    }
+
+    .image-3-carousel:hover {
+        transform: rotateY(0deg);
+    }
+
+    .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-1-carousel,
+    .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-2-carousel {
+        margin-left: -12px;
+        transition: margin 0.1s ease-in-out;
+        transform: rotateY(25deg);
+    }
+
+    .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-4-carousel,
+    .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-5-carousel {
+        margin-left: 12px;
+        transition: margin 0.1s ease-in-out;
+    }
+
+    .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-4-carousel,
+    .beach-images-wrapper-carousel:has(.image-3-carousel:hover) .image-5-carousel {
+        transform: rotateY(-25deg);
     }
 
 }
