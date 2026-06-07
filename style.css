@@ -2176,6 +2176,53 @@ ul {
         transform: rotateY(-25deg);
     }
 
+    .image-4-carousel {
+        z-index: 4;
+        transform: rotateY(25deg);
+        box-shadow: -9px 5px 20px 0px #00000040;
+        cursor: pointer;
+    }
+
+    .image-4-carousel:hover {
+        transform: rotateY(0deg);
+    }
+
+    .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-5-carousel {
+        margin-left: 12px;
+        transition: margin 0.1s ease-in-out;
+    }
+
+    .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-1-carousel,
+    .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-2-carousel,
+    .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-3-carousel {
+        margin-left: -12px;
+        transition: margin 0.1s ease-in-out;
+        transform: rotateY(25deg);
+    }
+
+    .beach-images-wrapper-carousel:has(.image-4-carousel:hover) .image-5-carousel {
+        transform: rotateY(-25deg);
+    }
+
+    .image-5-carousel {
+        z-index: 5;
+        transform: rotateY(25deg);
+        box-shadow: -9px 5px 20px 0px #00000040;
+        cursor: pointer;
+    }
+
+    .image-5-carousel:hover {
+        transform: rotateY(0deg);
+    }
+
+    .beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-1-carousel,
+    .beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-2-carousel,
+    .beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-3-carousel,
+    .beach-images-wrapper-carousel:has(.image-5-carousel:hover) .image-4-carousel {
+        margin-left: -12px;
+        transition: margin 0.1s ease-in-out;
+        transform: rotateY(25deg);
+    }
 }
 
 
