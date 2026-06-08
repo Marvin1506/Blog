@@ -390,8 +390,29 @@ ul {
     background-color: #4EA487;
     border-radius: 40px;
     border: none;
-    margin-top: 48px;
 
+}
+
+.page02-share-button-animation{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 48px;
+    gap: 7px;
+}
+.page02-link-focus{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.page02-link-focus > a{
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Arima';
+    line-height: 120%;
+    letter-spacing: 5%;
+    color: #4EA487;
 }
 
 #page02-button>img {
@@ -413,9 +434,54 @@ ul {
     display: flex;
     justify-content: center;
     gap: 53px;
-
-
 }
+
+.page02-share-button-animation{
+    display: flex;
+    flex-direction: row;
+}
+
+.page02-link-focus{
+        display: flex;
+    justify-content: center;
+   
+}
+
+.page02-share-button-animation:focus-within .page02-focus-row {
+    opacity: 1;
+    visibility: visible;
+    max-width: 300px; 
+}
+
+.page02-share-button-animation:focus-within .page02-share-button {
+    width: 110px; 
+    transition: width 0.3s ease; 
+}
+
+.page02-share-button-animation:focus-within .page02-share-button img {
+display: none;
+}
+
+.page02-focus-img{
+    width: 32px;
+    height: 32px;
+    margin-right: 8px;
+}
+
+.page02-focus-row{
+    
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    opacity: 0;
+    visibility: hidden;
+    max-width: 0;
+    overflow: hidden;
+    transition: opacity 0.3s ease, max-width 0.3s ease;
+}
+
 
 #Useful-link {
     color: #4EA487;
