@@ -2238,7 +2238,7 @@ display: flex;
 
     /* Grundzustand */
     .image-1-carousel {
-        transform: rotateY(0deg);
+        transform: rotateY(25deg);
         z-index: 5;
     }
 
@@ -2288,6 +2288,28 @@ display: flex;
         transform: rotateY(0deg);
         z-index: 10;
     }
+
+    #beach-2:checked ~ .beach-images-wrapper-carousel .image-3-carousel,
+    #beach-2:checked ~ .beach-images-wrapper-carousel .image-4-carousel,
+    #beach-2:checked ~ .beach-images-wrapper-carousel .image-5-carousel {
+        transform: rotateY(-25deg);
+    }
+
+    #beach-3:checked ~ .beach-images-wrapper-carousel .image-2-carousel{
+        transform: rotateY(25deg);
+    }
+
+    #beach-4:checked ~ .beach-images-wrapper-carousel .image-2-carousel,
+    #beach-4:checked ~ .beach-images-wrapper-carousel .image-3-carousel {
+        transform: rotateY(25deg);
+    }
+
+    #beach-5:checked ~ .beach-images-wrapper-carousel .image-2-carousel,
+    #beach-5:checked ~ .beach-images-wrapper-carousel .image-3-carousel,
+    #beach-5:checked ~ .beach-images-wrapper-carousel .image-4-carousel {
+        transform: rotateY(25deg);
+    }
+   
 }
 
 @media(max-width:1450px) {
