@@ -1268,6 +1268,33 @@ ul {
     position: relative;
 }
 
+.pro-tipps-batch-div-carousel {
+    position: absolute;
+    bottom: 245px;
+    left: -50px;
+    width: 196px;
+    height: 66px;
+    background-color: #4EA487;
+    border-radius: 10px;
+    rotate: -13deg;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pro-tipps-batch-text-carousel {
+    font-family: Palanquin;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 28px;
+    leading-trim: NONE;
+    line-height: 120%;
+    letter-spacing: 0%;
+    width: 113px;
+    height: 34px;
+    color: #F1C953;
+}
+
 .pro-tipps-box-carousel {
     width: 1083px;
     height: 195px;
@@ -1381,6 +1408,14 @@ ul {
     position: absolute;
     left: 5px;
     top: 10px;
+}
+
+.share-details-carousel[open] .share-icon-carousel {
+    display: none;
+}
+
+.share-details-carousel[open] .share-text-carousel {
+    padding-left: 0px;
 }
 
 .share-links-linkedin-whatsapp-div-carousel {
@@ -2298,7 +2333,21 @@ h2 {
     .pro-tipps-div-carousel {
         width: 343px;
         height: 309px;
-        margin-top: 32px;
+        margin-top: 103px;
+    }
+
+    .pro-tipps-batch-div-carousel {
+        position: absolute;
+        bottom: 300px;
+        left: 8px;
+        width: 196px;
+        height: 66px;
+        background-color: #4EA487;
+        border-radius: 10px;
+        rotate: -13deg;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .pro-tipps-box-carousel {
