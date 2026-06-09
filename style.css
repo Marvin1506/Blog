@@ -2128,6 +2128,7 @@ display: flex;
     .follow-me-text-share-div-carousel {
         margin-top: unset;
         margin-bottom: 120px;
+        max-width: 320px;
     }
 
     .share-button-carousel-div {
@@ -2142,8 +2143,8 @@ display: flex;
         display: unset;
         position: absolute;
         z-index: 10;
-        left: 70px;
-        top: 90px;
+        left: 0px;
+        top: 95px;
     }
 
     .marked-photo-div-wrapper-carousel {
@@ -2172,7 +2173,7 @@ display: flex;
      .beach-images-wrapper-carousel {
         display: flex;
         height: 343px;
-        width: 400px;
+        width: 320px;
         max-width: 100%;
         justify-content: unset;
         align-items: center;
@@ -2192,23 +2193,23 @@ display: flex;
     }
 
     #beach-1:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(100px);
+        transform: translateX(60px);
     }
 
     #beach-2:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-114px);
+        transform: translateX(-154px);
     }
 
     #beach-3:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-328px);
+        transform: translateX(-368px);
     }
 
     #beach-4:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-542px);
+        transform: translateX(-582px);
     }
 
     #beach-5:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-756px);
+        transform: translateX(-796px);
     }
 
     .beach-solo-image-wrapper-carousel:first-child {
