@@ -2012,7 +2012,7 @@ display: flex;
     }
 }
 
-@media screen and (max-width: 1201px) {
+@media screen and (max-width: 1201px) and (hover: none) {
     .flexbox-author-articel-carousel {
         flex-direction: column;
         padding-top: 24px;
