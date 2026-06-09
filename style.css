@@ -1360,16 +1360,32 @@ ul {
     padding-left: 32px;
 }
 
+.share-details-carousel {
+    display: flex;
+    align-items: center;
+}
+
 .share-icon-carousel {
     position: absolute;
     left: 24px;
+}
+
+
+.share-links-carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.share-icon-carousel-green {
+
 }
 
 .share-icon-arrow-carousel {
     color: #F1C953;
     z-index: 10;
     position: absolute;
-    left: 12px;
+    left: 6px;
     top: 56px;
 }
 
@@ -2289,6 +2305,7 @@ h2 {
     .follow-me-text-share-div-carousel {
         margin-top: unset;
         margin-bottom: 120px;
+        max-width: 320px;
     }
 
     .share-button-carousel-div {
@@ -2303,8 +2320,8 @@ h2 {
         display: unset;
         position: absolute;
         z-index: 10;
-        left: 70px;
-        top: 90px;
+        left: 0px;
+        top: 95px;
     }
 
     .marked-photo-div-wrapper-carousel {
@@ -2333,7 +2350,7 @@ h2 {
     .beach-images-wrapper-carousel {
         display: flex;
         height: 343px;
-        width: 400px;
+        width: 320px;
         max-width: 100%;
         justify-content: unset;
         align-items: center;
@@ -2352,24 +2369,24 @@ h2 {
         transition: transform 0.3s ease;
     }
 
-    #beach-1:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(100px);
+    #beach-1:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
+        transform: translateX(60px);
     }
 
-    #beach-2:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-114px);
+    #beach-2:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
+        transform: translateX(-154px);
     }
 
-    #beach-3:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-328px);
+    #beach-3:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
+        transform: translateX(-368px);
     }
 
-    #beach-4:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-542px);
+    #beach-4:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
+        transform: translateX(-582px);
     }
 
-    #beach-5:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-756px);
+    #beach-5:checked ~ .beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
+        transform: translateX(-796px);
     }
 
     .beach-solo-image-wrapper-carousel:first-child {
