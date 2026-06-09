@@ -1358,16 +1358,32 @@ display: none;
     padding-left: 32px;
 }
 
+.share-details-carousel {
+    display: flex;
+    align-items: center;
+}
+
 .share-icon-carousel {
     position: absolute;
     left: 24px;
+}
+
+
+.share-links-carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.share-icon-carousel-green {
+
 }
 
 .share-icon-arrow-carousel {
     color: #F1C953;
     z-index: 10;
     position: absolute;
-    left: 12px;
+    left: 6px;
     top: 56px;
 }
 
