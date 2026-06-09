@@ -1378,7 +1378,16 @@ ul {
 }
 
 .share-icon-carousel-green {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+}
 
+.share-links-linkedin-whatsapp-div-carousel {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    margin-left: 38px;
 }
 
 .share-icon-arrow-carousel {
@@ -1389,7 +1398,27 @@ ul {
     top: 56px;
 }
 
+.share-link-whatsapp-carousel {
+    font-family: Palanquin;
+    font-weight: 700;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #4EA487;
+    text-decoration: underline;
+}
 
+.share-link-linkedin-carousel {
+    font-family: Palanquin;
+    font-weight: 700;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: 0%;
+    color: #4EA487;
+    text-decoration: underline;
+}
 
 .home-complete-main-section {
 
@@ -2310,6 +2339,7 @@ h2 {
 
     .share-button-carousel-div {
         padding-top: unset;
+        border: none;
     }
 
     .share-icon-arrow-carousel {
@@ -2320,7 +2350,7 @@ h2 {
         display: unset;
         position: absolute;
         z-index: 10;
-        left: 0px;
+        left: -10px;
         top: 95px;
     }
 
