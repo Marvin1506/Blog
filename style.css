@@ -2257,6 +2257,11 @@ h2 {
     .flexbox-author-articel-carousel {
         flex-direction: column;
         padding-top: 24px;
+        max-width: 100%;
+    }
+
+    .carousel-headline-info-wrapper {
+        max-width: 100%;
     }
 
     .carousel-ocean-soul-headline {
@@ -2267,19 +2272,23 @@ h2 {
     }
 
     .carousel-breathtaking-beaches-headline {
-        width: 343px;
+        width: 320px;
         height: 120px;
-        font-size: 40px;
+        font-size: 36px;
     }
 
     .carousel-beaches-description {
-        width: 343px;
+        width: 320px;
         height: 88px;
         font-size: 18px;
     }
 
+    .carousel-read-time-icon-wrapper{
+        margin-left: -20px;
+    }
+
     .carousel-read-share-wrapper {
-        width: 345px;
+        width: 320px;
         height: 46px;
         padding-top: 0px;
         margin-top: 24px;
@@ -2288,8 +2297,8 @@ h2 {
     }
 
     .author-info-wrapper {
-        width: 345px;
-        height: 328px;
+        width: 320px;
+        height: 340px;
         margin-left: 0px;
         padding-top: 16px;
         padding-left: 8px;
@@ -2315,7 +2324,7 @@ h2 {
     }
 
     .lorem-text-carousel-div {
-        width: 343px;
+        width: 320px;
         height: 209px;
         margin-top: 40px;
     }
@@ -2326,12 +2335,12 @@ h2 {
 
     .lorem-text-second-carousel {
         margin-top: 32px;
-        width: 343px;
+        width: 320px;
         height: 341px;
     }
 
     .pro-tipps-div-carousel {
-        width: 343px;
+        width: 320px;
         height: 309px;
         margin-top: 103px;
     }
@@ -2351,7 +2360,7 @@ h2 {
     }
 
     .pro-tipps-box-carousel {
-        width: 343px;
+        width: 320px;
         height: 243px;
     }
 
@@ -2364,20 +2373,20 @@ h2 {
     }
 
     .lorem-text-third-carousel {
-        width: 343px;
+        width: 320px;
         height: 341px;
         margin-top: 32px;
     }
 
     .follow-me-text-share-carousel {
-        width: 343px;
+        width: 320px;
         height: 44px;
         margin-top: 40px;
         margin-bottom: 48px;
     }
 
     .follow-me-text-share-carousel {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .follow-me-text-share-div-carousel {
@@ -2590,6 +2599,19 @@ h2 {
         transform: rotateY(25deg);
     }
 
+}
+
+@media screen and (max-width: 350px) and (hover: none) {
+    .share-icon-arrow-carousel-mobile {
+        left: 0px;
+    }
+
+    .share-button-carousel {
+        width: 150px;
+        height: 40px;
+        margin-left: 10px;
+    }
+    
 }
 
 @media(max-width:1450px) {
