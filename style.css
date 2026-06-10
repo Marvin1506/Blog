@@ -1418,6 +1418,11 @@ ul {
     padding-left: 0px;
 }
 
+.share-details-carousel[open] .share-button-carousel {
+    height: 48px;
+    width: 118px;
+}
+
 .share-links-linkedin-whatsapp-div-carousel {
     display: flex;
     flex-direction: column;
