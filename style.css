@@ -1795,7 +1795,19 @@ appearance: none;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
-    gap: 11px
+    gap: 11px;
+    position: relative;
+}
+
+.home-privacy-policy-error {
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    transform: translateX(-50%);
+    color: red;
+    font-family: 'Palanquin';
+    font-weight: 500;
+    display: none;
 }
 
 #home-send-button {
@@ -1822,6 +1834,7 @@ appearance: none;
     margin-top: 60px;
     margin-bottom: 126px;
 }
+
 
 .home-landing-section {
     width: 100%;
