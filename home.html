@@ -299,22 +299,23 @@
                     </table>
 
                     <div class="home-text-privacy-policy-wrapper">
-                        <div class="idk">
-                            <label class="home-text-privacy-policy">I've read the <a id="privacy-policy">privacy
+                        <input id="privacy-policy-checkbox-home" class="home-check-box" type="checkbox" required>
+                        <label class="home-text-privacy-policy">I've read the <a id="privacy-policy">privacy
                                     policy</a> and agree to the processing
                                 of
                                 my
                                 data as
                                 outlined.
-                        </div>
-                        <input id="privacy-policy-checkbox-home" class="home-check-box" type="checkbox" required>
-                        <span class="checkmark"></span>
+                            
+                            <span class="checkmark"></span>
                         </label>
-                        <div class="home-privacy-policy-error">You must agree to the privacy policy to submit the form.</div>
+                        <div class="home-privacy-policy-error">
+                            You must agree the privacy policy and fill all inputfields to send your message.
+                        </div>
                     </div>
                     <div class="home-send-button-wrapper">
 
-                        <button id="home-send-button"> Send </button>
+                        <button type="submit" id="home-send-button"> Send </button>
                     </div>
             </form>
 

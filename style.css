@@ -1792,11 +1792,16 @@ appearance: none;
 
 .home-text-privacy-policy-wrapper {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     gap: 11px;
     position: relative;
+}
+
+.home-text-privacy-policy-wrapper:has(#privacy-policy-checkbox-home:user-invalid)
+.home-privacy-policy-error {
+    display: block;
 }
 
 .home-privacy-policy-error {
