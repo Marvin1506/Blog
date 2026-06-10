@@ -1734,7 +1734,14 @@ appearance: none;
     width: 527px;
     height: 94px;
     text-align: left;
+}
 
+.name-contact-formular-margin {
+    margin-right: 23px;
+}
+
+.email-contact-formular-margin {
+    margin-left: 23px;
 }
 
 .home-input {
