@@ -1671,7 +1671,7 @@ appearance: none;
     text-align: left;
     justify-content: space-between;
     padding: 16px 0px 14px 16px;
-
+    width: 1200px;
     line-height: 120%;
     letter-spacing: 0;
     color: #54370D;
@@ -1699,7 +1699,7 @@ appearance: none;
     color: #54370D;
     line-height: 120%;
     letter-spacing: 0;
-
+    width: 1172px;
     background-color: #FFFFFF;
 }
 
