@@ -1519,7 +1519,8 @@ ul {
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
+    padding-bottom: 44px;
     width: 1200px;
     height: 533px;
 }
