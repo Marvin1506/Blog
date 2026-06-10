@@ -102,7 +102,7 @@
 .footer-left-links {
     font-family: Palanquin;
     display: flex;
-    gap: 72px;
+    gap: 60px;
     flex-shrink: 0;
     /* Ohne diesen Befehl habe ich immer einen Zeilenumbruch... Unkalr warum.. */
 }
@@ -1071,6 +1071,11 @@ ul {
     bottom: 10px;
     left: 12px;
 }
+
+.article03-footer-mobile {
+    display: none;
+}
+
 
 .beach-destinations-images-div-carousel {
     padding-top: 88px;
@@ -2625,42 +2630,50 @@ h2 {
     }
 
     .article3-sec-1-main-text {
-        font-size: 20px;
+        font-size: 20px; 
     }
 
     .article3-sec-1-info {
-        font-size: 12px;
+        font-size: 16px; 
     }
 
     .article3-sec-1-author-font {
-        font-size: 16px;
+        font-size: 16px; 
     }
 
     .article3-sec-1-author-info-text {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .article3-sec-1-text-size-author {
         font-size: 16px;
     }
 
+    .article3-sec-1-main-author-box {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+    }
+
     .article3-sec-1-text,
     .article03-sec1-text,
     .article03-sec3-display {
-        font-size: 16px;
+        font-size: 16px; 
         margin-top: 20px;
         margin-bottom: 20px;
     }
 
     .article03-sec3-text {
-        font-size: 16px;
+        font-size: 16px; 
         margin-bottom: 20px;
     }
 
     .article03-h2,
     .article03-h2,
     .article03-h2 {
-        font-size: 28px;
+        font-size: 28px; 
         margin-bottom: 20px;
     }
 
@@ -2691,34 +2704,39 @@ h2 {
 
     .article3-sec-1-main-text {
         font-size: 16px;
-    }
+    } 
 
-    .article3-sec-1-info,
+    .article3-sec-1-main-config-graph {
+        flex-direction: column;
+        }
+
+
+  .article3-sec-1-info,
     .article3-sec-1-author-info-text {
-        font-size: 10px;
+        font-size: 16px;
     }
 
     .article3-sec-1-author-font {
-        font-size: 12px;
+        font-size: 16px;
     }
 
     .article3-sec-1-text-size-author {
-        font-size: 12px;
-    }
+        font-size: 16px;
+    } */
 
     .article3-sec-1-text,
     .article03-sec1-text,
     .article03-sec3-text,
     .article03-sec3-text,
     .article03-sec3-longtextbox {
-        font-size: 12px;
-    }
+        font-size: 16px;
+    } */
 
     .article03-h2,
     .article03-h2,
     .article03-h2 {
         font-size: 24px;
-    }
+    } 
 
     .article03-graph-box {
         max-width: 400px;
@@ -2798,6 +2816,67 @@ h2 {
         margin-top: 24px;
     }
 
+    .article03-media-logo {
+        width: 56px;
+        height: 56px;
+    }    
 
+    .article3-sec-1-design-h1-graph{
+        font-size: 38px;
+    }
+
+    .page-footer {
+        margin-left: 50px;
+        margin-right: 50px;
+}
+
+    .article03-footer-mobile {
+        display: block;
+        height: 88px;
+        background-color: #F1C953;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
 
 }
+
+@media(max-width:790px) {
+
+    .article03-sec3-display {
+        display: block;
+    }
+
+}
+
+    @media(max-width:790px) {
+
+        .article3-sec-1-main-config-graph {
+            flex-direction: column;
+        }
+
+
+    .article3-sec-1-main-author-box {
+        margin-left: 0;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-top: 20px;
+}
+
+    .footer-left-links {
+         gap: 50px;
+    }
+}
+
+    @media(max-width:690px) {
+
+        .article3-sec-1-info{
+        flex-wrap: wrap;
+
+        }
+
+
+
+
+    }
