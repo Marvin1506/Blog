@@ -1852,8 +1852,7 @@ appearance: none;
 
 
 .home-landing-section {
-    width: 100%;
-    max-width: 1440px;
+    max-width: 100%;
     height: 533px;
 
 }
@@ -1866,11 +1865,11 @@ appearance: none;
     position: relative;
 }
 
-
-
-
-
-
+.vacation-picture-turkey-home {
+    min-height: 515px;
+    max-width: 100%;
+    object-fit: cover;
+}
 
 
 .home-landing-section-left-text>h1 {
@@ -2643,7 +2642,6 @@ h2 {
     #beach-5:checked~.beach-images-wrapper-carousel .image-4-carousel {
         transform: rotateY(25deg);
     }
-
 }
 
 @media screen and (max-width: 350px) and (hover: none) {
