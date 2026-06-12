@@ -181,6 +181,7 @@
     line-height: 120%;
     letter-spacing: 0%;
     color: #F1C953;
+    text-decoration: none;
 }
 
 .page02-main-seciton-headline>p {
@@ -320,8 +321,19 @@ ul {
 
 
 .page02-main-video {
-    padding: 88px 0px 88px 0px;
+    max-width: 930px;
+    margin: 88px 0;
+   
 
+}
+
+.page02-main-video-container{
+
+
+ display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .page02-main-text-list-introduction {
@@ -1623,7 +1635,6 @@ appearance: none;
 
 
 
-
 #first-img:checked ~ .slider-container #show-first-img {
     display: block;
 }
@@ -1636,34 +1647,6 @@ appearance: none;
 #fourth-img:checked ~ .slider-container #show-fourth-img {
     display: block;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -1895,9 +1878,16 @@ appearance: none;
 
 
 .home-landing-section {
-    max-width: 100%;
-    height: 533px;
-
+    max-width: 1440px;
+    height: 515px;
+    background-image: url("./images/img_page_02/header photo (4).png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.home-landing-section-wrapper{
+    
+    padding: 0px calc(50% - 720px);
 }
 
 .home-landing-section-left-insideIMG {
@@ -1905,7 +1895,14 @@ appearance: none;
     align-items: end;
     justify-content: first baseline;
 
+    
+}
+
+.home-landing-section-left-insideIMG > img{
     position: relative;
+    right: -38px;
+    width: 647px;
+    height: 540px;
 }
 
 .vacation-picture-turkey-home {
@@ -1956,23 +1953,13 @@ appearance: none;
 
 
 
-
-
-.home-landing-section-left {
-    display: flex;
-    align-items: start;
-    justify-content: end;
-    position: absolute;
-    z-index: 3;
-}
-
-.home-landing-section-right {
+/* .home-landing-section-right {
     position: relative;
     z-index: 2;
     display: flex;
     align-items: center;
 
-}
+} */
 
 
 .home-cappadocia-and-turkeyFlag {
@@ -2024,6 +2011,21 @@ h2 {
 }
 
 @media only screen and (max-width: 768px) {
+
+    .page02-main{
+         display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .page02-complete-main-section{
+       
+        max-width: 320px;
+    }
+
+
     .header-nav {
         display: none;
     }
@@ -2116,8 +2118,8 @@ h2 {
     .page02-main-section-author {
         width: 345px;
         height: 328px;
-        margin: 0px 15px 0px 15px;
-        padding: 0px;
+/*         margin: 0px 15px 0px 15px;
+ */        padding: 0px;
         margin-bottom: 40px;
 
     }
@@ -2288,9 +2290,91 @@ h2 {
     .page-footer {
         margin: 0;
     }
+
+
+
+
+.vacation-picture-turkey-home {
+    position: relative;
+    left: 0px;
+    width: 100%;
+    object-fit: cover;
+    
+    
 }
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+.home-complete-main-section{
+    align-items: start;
+}
+
+.home-landing-section-left{
+    border: 5px solid black;
+}
+
+.home-landing-section-left-insideIMG > img{
+    width: 222px;
+    height: 299px;
+    right:0
+}
+
+
+.home-switch-wrapper{
+    width: 320px;
+}
+.home-slide {
+        width: 320px;
+
+}
+.home-main-section-highlights-heading-wrapper{
+    margin: 0;
+}
+.home-form-wrapper{
+    flex-direction: column;
+    width: 320px;
+}
+.home-contact-formular-table{
+    width: 320px;
+    padding: 0;
+    margin: 0;
+}
+.home-QandA-section{
+    width: 100%;
+}
+#home-contact-formular-table {
+    width: 320px;
+    table-layout: fixed;
+}
+.home-landing-section-left-text{
+    margin: 0;
+    display: none;
+}
+.home-landing-section{
+    width: 100%;
+     height: 515px;
+     background-position-x: -679px;
+}
+.home-cappadocia-turkey-animation{
+    margin: 0;
+    margin-left: 71px;
+    margin-bottom: 18px;
+    width: 160px;
+    height: 160px;
+}
+.home-QandA-section-wrapper{
+    width: 320px;
+}
+    
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1440px)  {
+
+  /*   .page02-main-video {
+        width: 100%;
+        margin: 50px 0 50px 0;
+
+       
+    } */
 
     .page02-main-text {
         width: 100%;
