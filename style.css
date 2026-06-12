@@ -87,33 +87,30 @@
   position: absolute;
   left: 0;
   bottom: 0;
-  width: 100%;
-  height: 15px; /* Höhe der Bilder */
+  height: 15px; 
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center bottom;
   opacity: 0;
   transition: opacity 0.3s ease;
+  bottom: 15px;
+  width: 105%;
 }
 
-/* Bild beim Hovern allgemein sichtbar machen */
 .hover:hover::after {
   opacity: 1;
 }
 
-/* 1. Link (Highlights) - Spezifisches Bild zuweisen */
 .header-nav a:nth-child(1)::after {
-  background-image: url(./images/icons/Article/);
+  background-image: url(./images/icons/Vector\ 11.svg);
 }
 
-/* 2. Link (FAQ) - Spezifisches Bild zuweisen */
 .header-nav a:nth-child(2)::after {
-  background-image: url('strich-faq.png');
+  background-image: url(./images/icons/Vector\ 11\ \(1\).svg);
 }
 
-/* 3. Link (Contact) - Spezifisches Bild zuweisen */
 .header-nav a:nth-child(3)::after {
-  background-image: url('strich-contact.png');
+  background-image: url(./images/icons/Vector\ 12\ \(1\).svg);
 }
 
 .page-footer-wrapper {
