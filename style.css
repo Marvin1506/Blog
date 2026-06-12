@@ -70,6 +70,52 @@
     width: 72px;
 }
 
+.hover:hover {
+    color: #F1C953;
+
+}
+
+/* Gemeinsame Basis für alle Hover-Bilder vorbereiten */
+.hover {
+  position: relative;
+  text-decoration: none;
+  padding-bottom: 12px; /* Platz für die Bilder unter dem Text */
+}
+
+.hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 15px; /* Höhe der Bilder */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+/* Bild beim Hovern allgemein sichtbar machen */
+.hover:hover::after {
+  opacity: 1;
+}
+
+/* 1. Link (Highlights) - Spezifisches Bild zuweisen */
+.header-nav a:nth-child(1)::after {
+  background-image: url(./images/icons/Article/);
+}
+
+/* 2. Link (FAQ) - Spezifisches Bild zuweisen */
+.header-nav a:nth-child(2)::after {
+  background-image: url('strich-faq.png');
+}
+
+/* 3. Link (Contact) - Spezifisches Bild zuweisen */
+.header-nav a:nth-child(3)::after {
+  background-image: url('strich-contact.png');
+}
+
 .page-footer-wrapper {
     background-color: #4EA487;
     width: 100%;
