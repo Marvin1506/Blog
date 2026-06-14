@@ -3181,7 +3181,7 @@ h2 {
     }
 }
 
-@media(max-width:1220px) {
+@media(max-width:1200px) {
     .article03-footer-mobile {
         display: block;
         height: 88px;
