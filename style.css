@@ -33,6 +33,7 @@
 * {
     margin: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 .page-header-wrapper {
@@ -2085,7 +2086,7 @@ h2 {
     display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1201px) {
 
     .page02-main {
         display: flex;
@@ -2385,11 +2386,7 @@ h2 {
 
    
 
-    .home-landing-section-left-insideIMG>img {
-        width: 222px;
-        height: 299px;
-        right: 0
-    }
+   
 
 
     .home-switch-wrapper {
@@ -2542,24 +2539,8 @@ h2 {
         table-layout: fixed;
     }
 
-    .home-landing-section-left-text {
-        margin: 0;
-        display: none;
-    }
+    
 
-    .home-landing-section {
-        width: 100%;
-        height: 515px;
-        background-position-x: -679px;
-    }
-
-    .home-cappadocia-turkey-animation {
-        margin: 0;
-        margin-left: 71px;
-        margin-bottom: 18px;
-        width: 160px;
-        height: 160px;
-    }
 
     .home-QandA-section-wrapper {
         width: 320px;
@@ -2621,14 +2602,39 @@ h2 {
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1440px) {
+@media screen and (max-width: 768px){
+    .home-landing-section-left-insideIMG>img {
+        width: 222px;
+        height: 299px;
+        right: 0
+    }
 
-    /*   .page02-main-video {
+
+
+    .home-landing-section-left-text {
+        margin: 0;
+        display: none;
+    }
+
+    .home-landing-section {
         width: 100%;
-        margin: 50px 0 50px 0;
+        height: 515px;
+        background-position-x: -679px;
+    }
 
-       
-    } */
+   .home-cappadocia-turkey-animation {
+        margin: 0;
+        margin-left: 71px;
+        margin-bottom: 18px;
+        width: 160px;
+        height: 160px;
+    }
+}
+/* 
+
+@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+   
 
     .page02-main-text {
         width: 100%;
@@ -2685,7 +2691,7 @@ h2 {
         margin-right: 15px;
     
     }
-}
+} */
 
 @media screen and (max-width: 1201px) and (hover: none) {
     .flexbox-author-articel-carousel {
