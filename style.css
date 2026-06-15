@@ -1809,11 +1809,9 @@ ul {
 }
 
 .home-QandA-section-answer {
-    margin: 0px 14px 16px 14px;
+    margin: 0px 14px 0px 14px;
     border-radius: 12px;
-    display: flex;
     text-align: left;
-    padding: 4px 24px 4px 4px;
     font-family: 'Palanquin';
     font-weight: 500;
     font-size: 16px;
@@ -1823,7 +1821,33 @@ ul {
     max-width: 1172px;
     background-color: #FFFFFF;
 
+    display: grid;
+    grid-template-rows: 0fr;
+    overflow: hidden;
+    transition: grid-template-rows 0.4s ease;
+}
 
+.home-QandA-section-answer p {
+    margin: 0;
+    overflow: hidden;
+}
+
+.faq-toggle {
+    display: none;
+}
+
+.faq-toggle:checked ~ .home-QandA-section-answer {
+    grid-template-rows: 1fr;
+    padding: 4px 24px 4px 4px;
+    margin: 0px 14px 16px 14px;
+}
+
+.home-QandA-section svg {
+    transition: transform 0.4s ease;
+}
+
+.faq-toggle:checked + .home-QandA-section svg {
+    transform: rotate(180deg);
 }
 
 .home-QandA-section>svg {
