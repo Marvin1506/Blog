@@ -30,7 +30,8 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
 }
@@ -38,12 +39,12 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
-    min-height: 100vh; 
+    min-height: 100vh;
 }
 
 
 main {
-    flex: 1; 
+    flex: 1;
 }
 
 * {
@@ -1790,6 +1791,7 @@ ul {
     color: #54370D;
 }
 
+
 .home-QandA-section>svg {
     margin-right: 14px;
 }
@@ -1800,7 +1802,7 @@ ul {
     gap: 32px;
 }
 
-.home-main-section-faq-wrapper{
+.home-main-section-faq-wrapper {
     width: 100%;
     max-width: 1200px;
 }
@@ -1819,7 +1821,18 @@ ul {
     letter-spacing: 0;
     max-width: 1172px;
     background-color: #FFFFFF;
+
+
 }
+
+.home-QandA-section > svg {
+    transition: transform 0.35s ease;
+}
+details[open] .home-QandA-section > svg {
+    transform: rotate(180deg);
+}
+
+
 
 .home-main-section-contact-heading {
     display: flex;
@@ -1854,10 +1867,11 @@ ul {
     height: 94px;
     text-align: left;
 }
-.home-contact-formular{
+
+.home-contact-formular {
     width: 100%;
     max-width: 1200px;
-    
+
 }
 
 .name-contact-formular-margin {
@@ -1884,17 +1898,17 @@ ul {
     caret-color: #4EA487;
 }
 
-.home-form-wrapper{
+.home-form-wrapper {
     width: 100%;
     max-width: 1100px;
-    
+
 }
 
 #home-contact-formular-table-row-one {
     display: flex;
     justify-content: space-between;
     margin-bottom: 34px;
-        table-layout: fixed;
+    table-layout: fixed;
     border-collapse: collapse;
 }
 
@@ -2406,9 +2420,9 @@ h2 {
         align-items: center;
     }
 
-   
 
-   
+
+
 
 
     .home-switch-wrapper {
@@ -2437,7 +2451,7 @@ h2 {
         font-size: 28px;
     }
 
-   
+
 
     .home-slider-container-text p {
         font-size: 20px;
@@ -2462,9 +2476,9 @@ h2 {
         margin: 0;
     }
 
-.home-main-section{
-    width: fit-content;
-}
+    .home-main-section {
+        width: fit-content;
+    }
 
 
     #highlight {
@@ -2510,9 +2524,10 @@ h2 {
 
     }
 
-    .home-privacy-policy-error{
-          width: 237px;;
-          margin-top: 20px;
+    .home-privacy-policy-error {
+        width: 237px;
+        ;
+        margin-top: 20px;
     }
 
     #first-img:checked~.slider-container #show-first-img-small {
@@ -2566,7 +2581,7 @@ h2 {
         table-layout: fixed;
     }
 
-    
+
 
 
     .home-QandA-section-wrapper {
@@ -2616,20 +2631,22 @@ h2 {
     }
 
     .home-send-button-wrapper {
-   
-    margin-top: 40px;
-    margin-bottom: 80px;
-}
-#home-text-highlights{
-    display: none;
-}
-.home-main-section-highlights-heading{
-    margin-top: 80px;
-}
+
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+
+    #home-text-highlights {
+        display: none;
+    }
+
+    .home-main-section-highlights-heading {
+        margin-top: 80px;
+    }
 }
 
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
     .home-landing-section-left-insideIMG>img {
         width: 222px;
         height: 299px;
@@ -2649,7 +2666,7 @@ h2 {
         background-position-x: -679px;
     }
 
-   .home-cappadocia-turkey-animation {
+    .home-cappadocia-turkey-animation {
         margin: 0;
         margin-left: 71px;
         margin-bottom: 18px;
@@ -2657,6 +2674,7 @@ h2 {
         height: 160px;
     }
 }
+
 /* 
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
@@ -3385,16 +3403,16 @@ h2 {
 
 }
 
-    @media(max-width:520px) {
+@media(max-width:520px) {
 
-        .article03-sec4-box {
-            width: 300px;
-        }
+    .article03-sec4-box {
+        width: 300px;
+    }
 
-        .article03-sec4-arrow {
-            left: -25px;
-            transform: rotate(35deg);
-        }
+    .article03-sec4-arrow {
+        left: -25px;
+        transform: rotate(35deg);
+    }
 
     .page-footer {
         padding-right: 15px;
