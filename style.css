@@ -1351,12 +1351,11 @@ ul {
 
 .lorem-text-second-carousel {
     margin-top: 88px;
-    height: 261px;
     width: 1020px;
 }
 
 .pro-tipps-div-carousel {
-    margin-top: 88px;
+    margin-top: 120px;
     width: 1130px;
     height: 260.0000305175781px;
     position: relative;
@@ -1422,8 +1421,6 @@ ul {
 
 .lorem-text-third-carousel {
     width: 1201px;
-    height: 232px;
-    margin-top: 88px;
 }
 
 .follow-me-text-share-div-carousel {
