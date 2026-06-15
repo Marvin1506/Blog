@@ -2488,6 +2488,11 @@ h2 {
 
     }
 
+    .home-privacy-policy-error{
+          width: 237px;;
+          margin-top: 20px;
+    }
+
     #first-img:checked~.slider-container #show-first-img-small {
         display: block;
         visibility: visible;
