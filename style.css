@@ -30,6 +30,22 @@
     /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
 }
 
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; 
+}
+
+
+main {
+    flex: 1; 
+}
+
 * {
     margin: 0;
     box-sizing: border-box;
