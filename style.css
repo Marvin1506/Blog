@@ -3266,7 +3266,8 @@ h2 {
     }
 
     .article03-sec4-arrow {
-        bottom: 31px;
+        display: none;
+      /*   bottom: 31px; */
         left: 96px;
         height: 85px;
         width: 65px;
@@ -3417,9 +3418,14 @@ h2 {
     }
 
     .article03-sec4-arrow {
-        left: -25px;
+        left: -20px;
         transform: rotate(35deg);
     }
+.article03-sec4-arrow-small svg{
+top: 30px;
+left: 10px;
+}
+    
 
     .page-footer {
         padding-right: 15px;
