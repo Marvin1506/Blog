@@ -34,7 +34,9 @@
     margin: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+
 }
+
 
 .page-header-wrapper {
     background-color: #4EA487;
@@ -809,6 +811,7 @@ ul {
     font-weight: 400;
     max-width: 902px;
     color: #54370D;
+    padding-right: 8px;
 
 }
 
@@ -2072,6 +2075,7 @@ ul {
     margin-bottom: 40px;
     margin-left: 40px;
     font-family: Palanquin;
+    min-height: 100dvh;
 }
 
 .Imp-Style h1,
