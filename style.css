@@ -400,7 +400,7 @@ ul {
 
 .page02-pro-tips-infobox {
 
-
+    border-radius: 10px;
     margin-left: 51px;
     margin-top: 65px;
     background-color: #4EA48733;
@@ -1836,7 +1836,7 @@ ul {
     display: none;
 }
 
-.faq-toggle:checked ~ .home-QandA-section-answer {
+.faq-toggle:checked~.home-QandA-section-answer {
     grid-template-rows: 1fr;
     padding: 4px 24px 4px 4px;
     margin: 0px 14px 16px 14px;
@@ -1846,7 +1846,7 @@ ul {
     transition: transform 0.4s ease;
 }
 
-.faq-toggle:checked + .home-QandA-section svg {
+.faq-toggle:checked+.home-QandA-section svg {
     transform: rotate(180deg);
 }
 
@@ -2153,7 +2153,7 @@ h2 {
 
 @media only screen and (max-width: 1201px) {
 
-    .page02-read-share-wrapper{
+    .page02-read-share-wrapper {
         width: 310px;
         display: flex;
         align-items: left;
@@ -2162,11 +2162,12 @@ h2 {
         padding: 0px 15px 24px 15px;
     }
 
-    .page02-read-share-wrapper-first-line, .page02-read-share-wrapper-second-line{
+    .page02-read-share-wrapper-first-line,
+    .page02-read-share-wrapper-second-line {
         gap: 8px;
     }
 
-    .page02-read-share-wrapper p{
+    .page02-read-share-wrapper p {
         font-size: 12px;
     }
 
@@ -2221,7 +2222,7 @@ h2 {
 
 
     .page02-main-seciton-headline,
-    
+
     .page02-main-text,
     .page02-ending-section-wrapper {
         width: 100%;
@@ -2258,9 +2259,9 @@ h2 {
         margin-bottom: 24px;
     }
 
-  
 
-  
+
+
 
     .page02-main-section-author {
         width: 270px;
@@ -2310,7 +2311,7 @@ h2 {
     }
 
     .page02-main-text-list {
-
+        margin-left: -16px;
         margin-bottom: 24px;
     }
 
@@ -2330,7 +2331,7 @@ h2 {
 
 
     .page02-pro-tips-infobox-wrapper {
-        margin: 32px 0px;
+        margin: 32px 15px;
     }
 
     .page02-pro-tips-infobox li {
@@ -2346,7 +2347,6 @@ h2 {
     .page02-pro-tips-infobox ol {
         position: relative;
         padding: 24px 11px 24px 22px;
-        margin-left: 11px;
         text-align: left;
     }
 
@@ -2372,7 +2372,7 @@ h2 {
         display: flex;
         transform: rotate(7deg);
         width: 50px;
-        margin: 16px 316px 10px 22px;
+        margin: 16px 287px 10px 22px;
         position: absolute;
     }
 
@@ -2779,28 +2779,34 @@ h2 {
         flex-direction: column;
         padding-top: 24px;
         max-width: 100%;
+        align-items: center;
     }
 
     .carousel-headline-info-wrapper {
         max-width: 100%;
+
     }
 
     .carousel-ocean-soul-headline {
         width: 304px;
-        height: 24px;
         font-size: 20px;
         text-decoration: none;
+        padding: 0px 15px;
+        margin-bottom: 8px;
+
     }
 
     .carousel-breathtaking-beaches-headline {
         width: 320px;
         height: 120px;
         font-size: 36px;
+        padding: 0px 15px;
+        margin-bottom: 8px;
     }
 
     .carousel-beaches-description {
         width: 320px;
-        height: 88px;
+        padding: 0px 15px;
         font-size: 18px;
     }
 
@@ -2815,10 +2821,17 @@ h2 {
         margin-top: 24px;
         flex-wrap: wrap;
         row-gap: 8px;
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+    .carousel-read-share-wrapper p {
+        font-size: 12px;
+
     }
 
     .author-info-wrapper {
-        width: 320px;
+
         height: 340px;
         margin-left: 0px;
         padding-top: 16px;
@@ -2837,6 +2850,9 @@ h2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+        padding: 88px 15px 0px 15px;
+        margin-right: 15px;
+        margin-left: 15px;
     }
 
     .beach-destinations-headline-carousel {
@@ -2845,9 +2861,11 @@ h2 {
     }
 
     .lorem-text-carousel-div {
-        width: 320px;
-        height: 209px;
+        max-width: 320px;
+        height: fit-content;
+        padding: 0px 15px;
         margin-top: 40px;
+
     }
 
     .lorem-text-carousel {
@@ -2855,23 +2873,24 @@ h2 {
     }
 
     .lorem-text-second-carousel {
+        height: fit-content;
+        max-width: 320px;
+        padding: 0px 15px;
         margin-top: 32px;
-        width: 320px;
-        height: 341px;
     }
 
     .pro-tipps-div-carousel {
-        width: 320px;
-        height: 309px;
+        max-width: 320px;
+        padding: 0px 15px ;
         margin-top: 103px;
     }
 
     .pro-tipps-batch-div-carousel {
         position: absolute;
-        bottom: 300px;
-        left: 8px;
+        bottom: 258px;
+        left: 15px;
         width: 196px;
-        height: 66px;
+        height: 57px;
         background-color: #4EA487;
         border-radius: 10px;
         rotate: -13deg;
@@ -2881,8 +2900,8 @@ h2 {
     }
 
     .pro-tipps-box-carousel {
-        width: 320px;
-        height: 243px;
+        max-width: 290px;
+        height: fit-content;
     }
 
     .pro-tipps-lorem-text-carousel {
@@ -2894,8 +2913,8 @@ h2 {
     }
 
     .lorem-text-third-carousel {
-        width: 320px;
-        height: 341px;
+        max-width: 320px;
+        padding: 0px 15px;
         margin-top: 32px;
     }
 
@@ -2911,7 +2930,7 @@ h2 {
     }
 
     .follow-me-text-share-div-carousel {
-        margin-top: unset;
+        margin-top: 40px;
         margin-bottom: 120px;
         max-width: 320px;
     }
@@ -2959,8 +2978,8 @@ h2 {
     .beach-images-wrapper-carousel {
         display: flex;
         height: 343px;
-        width: 320px;
-        max-width: 100%;
+        max-width: 295px;
+
         justify-content: unset;
         align-items: center;
         margin-top: 37px;
@@ -3123,7 +3142,7 @@ h2 {
 
 @media screen and (max-width: 350px) and (hover: none) {
     .share-icon-arrow-carousel-mobile {
-        left: 0px;
+        left: 11px;
     }
 
     .share-button-carousel {
