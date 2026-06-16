@@ -1366,7 +1366,7 @@ ul {
 .pro-tipps-batch-div-carousel {
     position: absolute;
     bottom: 245px;
-    left: -50px;
+    left: -26px;
     width: 196px;
     height: 66px;
     background-color: #4EA487;
@@ -2800,7 +2800,7 @@ h2 {
     }
 } */
 
-@media screen and (max-width: 1201px) and (hover: none) {
+@media screen and (max-width: 1201px) {
     .flexbox-author-articel-carousel {
         flex-direction: column;
         padding-top: 24px;
@@ -3166,7 +3166,7 @@ h2 {
     }
 }
 
-@media screen and (max-width: 350px) and (hover: none) {
+@media screen and (max-width: 350px)  {
     .share-icon-arrow-carousel-mobile {
         left: 11px;
     }
