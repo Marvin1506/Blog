@@ -3168,23 +3168,23 @@ h2 {
     }
 
     #beach-1:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(60px);
+        transform: translateX(45px);
     }
 
     #beach-2:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-154px);
+        transform: translateX(-162px);
     }
 
     #beach-3:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-368px);
+        transform: translateX(-371px);
     }
 
     #beach-4:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-582px);
+        transform: translateX(-580px);
     }
 
     #beach-5:checked~.beach-images-wrapper-carousel .beach-solo-image-wrapper-carousel {
-        transform: translateX(-796px);
+        transform: translateX(-790px);
     }
 
     .beach-solo-image-wrapper-carousel:first-child {
