@@ -2799,8 +2799,106 @@ h2 {
     
     }
 } */
+ @media screen and (max-width: 1201px) and (min-width: 768px) {
 
-@media screen and (max-width: 1201px) and (hover: none) {
+    .flexbox-author-articel-carousel {
+        max-width: 768px;
+    }
+
+    .carousel-articel-author-wrapper {
+        max-width: 506px;
+    }
+
+    .carousel-ocean-soul-headline{
+        font-size: 26px;
+
+    }
+
+    .carousel-breathtaking-beaches-headline {
+        font-size: 50px;
+        height: unset;
+    }
+
+    .carousel-beaches-description{
+        font-size: 18px;
+        width: 530px;
+    }
+
+    .carousel-breathtaking-beaches-headline {
+        width: 540px;
+    }
+
+    .carousel-read-share-wrapper {
+        gap: 12px;
+    }
+
+    .author-info-wrapper {
+        min-width: 232px;
+        min-height: 349px;
+    }
+
+    .author-info-text-carousel {
+        padding-top: 0px;
+    }
+
+    .author-image-carousel {
+        min-height: 120px;
+    }
+
+    .Tamara-Walker-headline-carousel {
+        padding-top: 6px;
+    }
+
+    .beach-destinations-images-div-carousel {
+        max-width: 768px;
+    }
+
+    .beach-images-wrapper-carousel {
+
+    }
+
+    .lorem-text-carousel-div {
+        max-width: 768px;
+    }
+
+    .lorem-text-second-carousel {
+        max-width: 768px;
+        margin-top: 122px;
+    }
+
+    .pro-tipps-div-carousel {
+        max-width: 768px;
+    }
+
+    .pro-tipps-box-carousel {
+        max-width: 690px;
+    }
+
+    .pro-tipps-lorem-text-carousel {
+        font-size: 20px;
+    }
+
+    .useful-link-carousel {
+        font-size: 20px;
+    }
+
+    .pro-tipps-batch-div-carousel {
+        width: 158px;
+        max-height: 53px;
+    }
+
+    .pro-tipps-batch-text-carousel {
+        font-size: 26px;
+    
+    }
+
+    .lorem-text-third-carousel {
+        max-width: 768px;
+    }
+
+ }
+
+@media screen and (max-width: 768px) and (hover: none) {
     .flexbox-author-articel-carousel {
         flex-direction: column;
         padding-top: 24px;
