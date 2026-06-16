@@ -1688,6 +1688,7 @@ ul {
 }
 
 .home-slide-small {
+    width: 290px;
     position: absolute;
     top: 0;
     left: 0;
@@ -2462,12 +2463,12 @@ h2 {
 
 
     .home-switch-wrapper {
-        width: 320px;
+        width: 290px;
 
     }
 
     .home-slide {
-        width: 320px;
+        width: 290px;
 
     }
 
@@ -2481,6 +2482,7 @@ h2 {
 
     .home-slider-container-text {
         margin: 93px 14px 0px 14px;
+        max-width: 320px;
     }
 
     .home-slider-container-text h4 {
@@ -2569,21 +2571,32 @@ h2 {
     #first-img:checked~.slider-container #show-first-img-small {
         display: block;
         visibility: visible;
+        width: 290px;
     }
 
     #second-img:checked~.slider-container #show-second-img-small {
         display: block;
-        visibility: visible
+        visibility: visible;
+                width: 290px;
+
     }
 
     #third-img:checked~.slider-container #show-third-img-small {
         display: block;
-        visibility: visible
+        visibility: visible;
+                width: 290px;
+
     }
 
     #fourth-img:checked~.slider-container #show-fourth-img-small {
         display: block;
-        visibility: visible
+        visibility: visible;
+                width: 290px;
+
+    }
+
+    .home-switch-wrapper{
+            padding-top: 424px;
     }
 
     .home-main-section-highlights-heading-wrapper {
@@ -2592,7 +2605,7 @@ h2 {
 
     .home-form-wrapper {
         flex-direction: column;
-        width: 320px;
+        max-width: 320px;
     }
 
     .home-contact-formular-table {
@@ -2613,15 +2626,17 @@ h2 {
     }
 
     #home-contact-formular-table {
-        width: 320px;
-        table-layout: fixed;
+        max-width: 320px;
+        padding: 0px 15px;
+                table-layout: fixed;
+
     }
 
 
 
 
     .home-QandA-section-wrapper {
-        width: 320px;
+        max-width: 320px;
     }
 
 
@@ -2647,6 +2662,7 @@ h2 {
 
     .home-text-privacy-policy-wrapper {
         gap: 11px;
+        padding: 0px 15px;
     }
 
     .home-check-box {
@@ -2679,10 +2695,16 @@ h2 {
     .home-main-section-highlights-heading {
         margin-top: 80px;
     }
+
+    
 }
 
 
 @media screen and (max-width: 768px) {
+
+    .home-input{
+        width: 290px;
+    }
     .home-landing-section-left-insideIMG>img {
         width: 222px;
         height: 299px;
