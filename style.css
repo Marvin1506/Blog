@@ -1249,7 +1249,9 @@ ul {
     transition: margin 0.1s ease-in-out;
 }
 
-.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-3-carousel {
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-3-carousel,
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-4-carousel,
+.beach-images-wrapper-carousel:has(.image-2-carousel:hover) .image-5-carousel {
     margin-left: 80px;
     transition: margin 0.1s ease-in-out;
 }
@@ -2854,7 +2856,37 @@ h2 {
     }
 
     .beach-images-wrapper-carousel {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 264px;
+        margin-top: 64px;
+        width: 768px;
+    }
 
+    .beach-solo-image-wrapper-carousel {
+        width: 180px;
+        min-width: 180px;
+        height: 264px;
+        min-height: 264px;
+        margin-left: -80px;
+        perspective: 600px;
+    }
+
+    .beach-solo-image-wrapper-carousel:first-child {
+        margin-left: 0;
+    }
+
+    .beach-images-carousel {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 180px;
+        height: 264px;
+        border-radius: 16px;
+        object-fit: cover;
+        min-width: 180px;
+        flex-shrink: unset;
     }
 
     .lorem-text-carousel-div {
@@ -2868,6 +2900,9 @@ h2 {
 
     .pro-tipps-div-carousel {
         max-width: 768px;
+        width: 768px;
+        display: flex;
+        justify-content: center;
     }
 
     .pro-tipps-box-carousel {
@@ -2885,6 +2920,7 @@ h2 {
     .pro-tipps-batch-div-carousel {
         width: 158px;
         max-height: 53px;
+        left: 0px;
     }
 
     .pro-tipps-batch-text-carousel {
@@ -2928,6 +2964,15 @@ h2 {
         margin-bottom: 8px;
     }
 
+   .author-image-carousel {
+        min-height: 120px;
+        width: 120px
+    }
+
+    .Tamara-Walker-headline-carousel {
+        padding-top: 4px;
+    }
+
     .carousel-beaches-description {
         width: 320px;
         padding: 0px 15px;
@@ -2967,6 +3012,7 @@ h2 {
 
     .author-info-text-carousel {
         text-align: center;
+        padding-top: 0px;
     }
 
     .beach-destinations-images-div-carousel {
@@ -3102,7 +3148,7 @@ h2 {
     .beach-images-wrapper-carousel {
         display: flex;
         height: 343px;
-        max-width: 295px;
+        max-width: 290px;
 
         justify-content: unset;
         align-items: center;
@@ -3113,8 +3159,8 @@ h2 {
     }
 
     .beach-solo-image-wrapper-carousel {
-        width: 200px;
-        min-width: 200px;
+        width: 195px;
+        min-width: 195px;
         height: 293px;
         margin-left: 0;
         perspective: 600px;
@@ -3146,9 +3192,10 @@ h2 {
     }
 
     .beach-images-carousel {
-        width: 200px;
+        width: 195px;
         height: 293px;
-        min-width: 200px;
+        min-width: 195px;
+        max-width: 195px;
         object-fit: cover;
         border-radius: 16px;
         box-shadow: -9px 5px 20px 0px #00000040;
