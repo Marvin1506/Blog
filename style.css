@@ -1793,6 +1793,10 @@ ul {
     color: #54370D;
 }
 
+.home-QandA-section :hover{
+    cursor: grab;
+}
+
 
 .home-QandA-section>svg {
     margin-right: 14px;
