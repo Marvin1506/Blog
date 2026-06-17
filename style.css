@@ -1799,6 +1799,10 @@ ul {
     cursor: grab;
 }
 
+.home-QandA-section-wrapper :hover{
+    cursor: grab;
+}
+
 
 .home-QandA-section>svg {
     margin-right: 14px;
@@ -2934,7 +2938,7 @@ h2 {
 
  }
 
-@media screen and (max-width: 768px) and (hover: none) {
+@media screen and (max-width: 768px) {
     .flexbox-author-articel-carousel {
         flex-direction: column;
         padding-top: 24px;
