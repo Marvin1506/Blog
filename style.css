@@ -2158,7 +2158,7 @@ h2 {
     display: none;
 }
 
-@media only screen and (max-width: 1201px) {
+@media only screen and (max-width: 768px) {
 
     .page02-read-share-wrapper {
         width: 310px;
@@ -2739,9 +2739,9 @@ h2 {
     }
 }
 
-/* 
 
-@media screen and (min-width: 768px) and (max-width: 1200px) {
+
+@media screen and (min-width: 768px) and (max-width: 1440px) {
 
    
 
@@ -2800,7 +2800,7 @@ h2 {
         margin-right: 15px;
     
     }
-} */
+} 
  @media screen and (max-width: 1201px) and (min-width: 768px) {
 
     .flexbox-author-articel-carousel {
