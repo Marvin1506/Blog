@@ -42,7 +42,7 @@ This project strengthened my skills in:
 
 ## Live Demo
 
-https//marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/Blog/index.html
+https://marvin-mutwil.developerakademie.net/A-Developer-Akademie-Projekte/Blog/index.html
 
 ## Preview
 
